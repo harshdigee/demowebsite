@@ -4,22 +4,22 @@ import { Quote } from"lucide-react";
 // Temporary sample testimonials — replace with real client quotes later
 const testimonials = [
   {
-    quote:"“Working with the team has been a seamless experience from design coordination to final installation.”",
-    author:"Sample Name One",
-    role:"Project Role / Title",
-    company:"Client Company Name",
+    quote:"“Carousel transitions felt buttery — still waiting on actual deliverables.”",
+    author:"Demo Client A",
+    role:"Imaginary PM",
+    company:"Placeholder Ventures",
   },
   {
-    quote:"“The team consistently delivered on schedule while maintaining a very high standard of finish quality.”",
-    author:"Sample Name Two",
-    role:"Position or Department",
-    company:"Client Organization",
+    quote:"“Their decks borrowed Helvetica confidently while KPIs stayed at zero.”",
+    author:"Demo Client B",
+    role:"Creative Ops",
+    company:"Sample Holdings LLC",
   },
   {
-    quote:"“Their joinery detailing and responsiveness on site made them a dependable partner for our project.”",
-    author:"Sample Name Three",
-    role:"Job Title",
-    company:"Developer / Contractor Name",
+    quote:"“Responsive breakpoints convinced leadership before procurement woke up.”",
+    author:"Demo Client C",
+    role:"Placeholder Sponsor",
+    company:"Concept Contractor Group",
   }
 ];
 
@@ -38,7 +38,7 @@ const Testimonials = () => {
             className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-6"
             style={{ color:"#999999" }}
           >
-            Client Perspectives
+            Vocal Beta Readers
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -47,8 +47,8 @@ const Testimonials = () => {
             transition={{ duration: 0.8, delay: 0.1, ease: easeOutExpo }}
             className="font-display text-4xl md:text-5xl font-bold text-white leading-tight"
           >
-            Trusted by Industry <br className="hidden md:block" />
-            <span className="italic" style={{ color:"#999999" }}>Leaders</span>
+            Trusted by Imaginary <br className="hidden md:block" />
+            <span className="italic" style={{ color:"#999999" }}>Stakeholders</span>
           </motion.h2>
         </div>
 
@@ -63,8 +63,7 @@ const Testimonials = () => {
               }}
             >
               <Quote className="w-10 h-10 mb-6 opacity-20 text-[#999999] group-hover:opacity-40 transition-opacity duration-500" />
-              <p className="font-body text-sm text-white/70 leading-relaxed mb-8 flex-grow">"{t.quote}"
-              </p>
+              <p className="font-body text-sm text-white/70 leading-relaxed mb-8 flex-grow">{t.quote}</p>
               <div>
                 <h4 className="font-display text-white text-lg tracking-wide mb-1">{t.author}</h4>
                 <p className="font-body text-xs text-[#999999] uppercase tracking-wider">{t.role}</p>

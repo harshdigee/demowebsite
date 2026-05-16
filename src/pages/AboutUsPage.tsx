@@ -35,7 +35,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
             >
               <div className="w-full h-full rounded-2xl overflow-hidden shadow-2xl relative">
-                <img src={PLACEHOLDER_IMAGE} alt="Interior" className="w-full h-full object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Demo placeholder" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/60 to-transparent pointer-events-none" />
               </div>
             </motion.div>
@@ -52,7 +52,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.2, delay: 0.4, ease: easeOutExpo }}
             >
               <div className="glass-card rounded-xl overflow-hidden shadow-2xl">
-                <img src={PLACEHOLDER_IMAGE} alt="Factory" className="w-full h-auto object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Demo placeholder" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
 
@@ -64,7 +64,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
             >
               <div className="w-full h-full rounded-2xl overflow-hidden shadow-2xl relative">
-                <img src={PLACEHOLDER_IMAGE} alt="Interior" className="w-full h-full object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Demo placeholder" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/60 to-transparent pointer-events-none" />
               </div>
             </motion.div>
@@ -78,7 +78,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.2, delay: 0.6, ease: easeOutExpo }}
             >
               <div className="glass-card rounded-xl overflow-hidden shadow-2xl">
-                <img src={PLACEHOLDER_IMAGE} alt="Interior Design" className="w-full h-auto object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Demo placeholder" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
           </div>
@@ -105,7 +105,7 @@ const AboutUsPage = () => {
               }}
               lang="en"
             >
-              We are a UAE-based commercial joinery specialist, delivering engineered woodwork solutions to contractors, developers, and hospitality projects across the region.
+              Lorem ipsum dolor sit amet — demo About intro paragraph one. Replace before publishing.
             </p>
             <p
               className="about-s1-prose"
@@ -119,13 +119,13 @@ const AboutUsPage = () => {
               }}
               lang="en"
             >
-              We operate as both a main contractor and specialist subcontractor, delivering large-scale commercial and mixed-use projects with structured planning, technical precision, and reliable execution. Our focus is on consistent performance and high-quality delivery in demanding construction environments.
+              Consectetur adipiscing elit sed do eiusmod tempor incididunt — demo About intro paragraph two for spacing preview.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* SECTION 2 — "As an established joinery manufacturer" */}
+      {/* SECTION 2 — demo headline grid */}
       <section className="relative z-20 overflow-hidden" style={{ padding: "40px 0" }}>
         <motion.div
           className="about-s1-container"
@@ -152,55 +152,55 @@ const AboutUsPage = () => {
           >
             {/* Mobile: fixed wraps to match ss2 — desktop unchanged below */}
             <span className="md:hidden">
-              As an established joinery
+              Demo headline crafted for
               <br />
-              manufacturer in the UAE,
+              small screens only,
               <br />
               <span
                 className="about-s2-italic"
                 style={{ fontWeight: 700, fontStyle: "italic", color: "#9ca3af" }}
               >
-                <span className="whitespace-nowrap">We operate purpose-built</span>
+                <span className="whitespace-nowrap">Italic accents preview</span>
               </span>
               <br />
               <span
                 className="about-s2-italic"
                 style={{ fontWeight: 700, fontStyle: "italic", color: "#9ca3af" }}
               >
-                production facilities
+                typography pairing
               </span>
               <br />
               <span
                 className="about-s2-italic"
                 style={{ fontWeight: 700, fontStyle: "italic", color: "#9ca3af" }}
               >
-                facilities designed
+                without real claims
               </span>
               <br />
-              to support <span className="whitespace-nowrap">large-scale</span>
+              so stakeholders can judge <span className="whitespace-nowrap">spacing,</span>
               <br />
-              <span className="whitespace-nowrap">commercial manufacturing</span>
+              <span className="whitespace-nowrap">breakpoints,</span>
               <br />
-              and <span className="whitespace-nowrap">high-volume</span> project delivery.
+              and <span className="whitespace-nowrap">motion curves</span> quickly.
             </span>
             <span className="hidden md:block">
-              As an established joinery manufacturer
+              As a fictional studio showcased
               <br />
-              in the UAE,
+              on this demo template,
               <br />
               <span
                 className="about-s2-italic"
                 style={{ fontWeight: 700, fontStyle: "italic", color: "#9ca3af" }}
               >
-                We operate purpose-built production facilities
+                We imagine glossy brochure layouts
                 <br />
                 designed
               </span>{" "}
-              to support large-scale commercial
+              to support storytelling layouts for
               <br />
-              manufacturing and high-volume project
+              multi-column grids and stacked
               <br />
-              delivery.
+              previews.
             </span>
           </h3>
 
@@ -215,7 +215,7 @@ const AboutUsPage = () => {
             }}
             lang="en"
           >
-            Our scope includes fire-rated doors, kitchens, wardrobes, wall cladding, and bespoke architectural joinery. We implement strict quality control and production monitoring systems to ensure consistency, accuracy, and reliable project execution.
+            Demo bullet-style prose about imaginary catalog items — kitchens, wardrobes, wall panels — purely illustrative filler.
           </p>
           <p
             className="about-s2-prose"
@@ -227,7 +227,7 @@ const AboutUsPage = () => {
             }}
             lang="en"
           >
-            We are also a compliant supplier of fire-rated door systems, delivering 30, 60, and 120-minute rated solutions in line with UAE Civil Defence requirements. We provide full technical documentation and support for project approvals and compliance.
+            Additional dummy paragraph referencing fictional approvals — swap with legally reviewed copy when this becomes a live brand.
           </p>
         </motion.div>
       </section>
@@ -247,7 +247,7 @@ const AboutUsPage = () => {
                 viewport={{ once: false, amount: 0.05 }}
                 transition={{ duration: 1, delay: 0.2, ease: easeOutExpo }}
               >
-                <img src={PLACEHOLDER_IMAGE} alt="Joinery Detail" style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }} />
+                <img src={PLACEHOLDER_IMAGE} alt="Demo placeholder" style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }} />
               </motion.div>
             </div>
 
@@ -288,7 +288,7 @@ const AboutUsPage = () => {
               }}
                 lang="en"
               >
-                Our 50,000 sq. ft. manufacturing facility is equipped with state-of-the-art European machinery, enabling high-volume production with tolerances of up to ±0.1mm.
+                Our pretend facility spans imaginary square footage with fictional machinery tolerances — numbers shown for layout rhythm only.
               </p>
             </motion.div>
           </div>
@@ -312,7 +312,7 @@ const AboutUsPage = () => {
             viewport={{ once: false, amount: 0.05 }}
             transition={{ duration: 1, ease: easeOutExpo }}
           >
-            The Art of Manufacturing
+            Demo Manufacturing Storyboard
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -324,11 +324,11 @@ const AboutUsPage = () => {
               transition={{ duration: 1, ease: easeOutExpo }}
             >
               <div style={{ borderRadius: 10, overflow: "hidden" }} className="glass-card w-full aspect-[4/3]">
-                <img src={PLACEHOLDER_IMAGE} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Production Facility" />
+                <img src={PLACEHOLDER_IMAGE} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Demo placeholder" />
               </div>
-              <h4 style={{ fontSize: 22, fontWeight: 700, color: "#ffffff", marginBottom: 8 }}>Large-Scale Commercial Manufacturing</h4>
+              <h4 style={{ fontSize: 22, fontWeight: 700, color: "#ffffff", marginBottom: 8 }}>Placeholder Column Title One</h4>
               <p style={{ fontSize: 15, color: "#d1d5db", lineHeight: 1.7, textAlign: "justify", overflowWrap: "break-word" }} lang="en">
-                Our team of engineers and skilled craftsmen work in tandem with automated systems to achieve the balance between precision engineering and efficient production. Each stage of the manufacturing process is monitored to ensure consistent quality across projects of any scale.
+                Fusce dapibus tellus ac cursus commodo tortor mauris condimentum nibh — filler paragraph beside placeholder imagery.
               </p>
             </motion.div>
 
@@ -340,11 +340,11 @@ const AboutUsPage = () => {
               transition={{ duration: 1, delay: 0.2, ease: easeOutExpo }}
             >
               <div style={{ borderRadius: 10, overflow: "hidden" }} className="glass-card w-full aspect-[4/3]">
-                <img src={PLACEHOLDER_IMAGE} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Quality Control" />
+                <img src={PLACEHOLDER_IMAGE} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Demo placeholder" />
               </div>
-              <h4 style={{ fontSize: 22, fontWeight: 700, color: "#ffffff", marginBottom: 8 }}>Strict Quality Control</h4>
+              <h4 style={{ fontSize: 22, fontWeight: 700, color: "#ffffff", marginBottom: 8 }}>Placeholder Column Title Two</h4>
               <p style={{ fontSize: 15, color: "#d1d5db", lineHeight: 1.7, textAlign: "justify", overflowWrap: "break-word" }} lang="en">
-                From raw material processing through to final finishing, we implement rigorous quality control procedures at every stage. Our fire-rated door systems are delivered with full compliance documentation, reflecting our commitment to safety, regulatory standards, and reliable execution.
+                Second filler column describing imaginary QA checkpoints — no certifications implied on this demo stack.
               </p>
             </motion.div>
           </div>
@@ -352,11 +352,11 @@ const AboutUsPage = () => {
           {/* Metrics Block */}
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-24 border-t border-white/10 pt-16">
             {[
-              { value: "50,000", label: "Sq. Ft. Manufacturing Facility" },
-              { value: "120+", label: "Skilled Workforce Per Shift" },
-              { value: "90+", label: "Installation Staff Available" },
-              { value: "High-Volume", label: "Production Capability For Large Developments" },
-              { value: "Specialist", label: "In Commercial, Residential, And Hospitality Projects" },
+              { value: "01", label: "Demo metric label A" },
+              { value: "02", label: "Demo metric label B" },
+              { value: "03", label: "Demo metric label C" },
+              { value: "04", label: "Demo metric label D" },
+              { value: "05", label: "Demo metric label E" },
             ].map((metric, i) => (
               <motion.div
                 key={i}

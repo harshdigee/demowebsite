@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
           <p className="mb-4">We may collect the following types of information:</p>
           <ul className="list-disc pl-6 space-y-2 text-white/60">
             <li><strong className="text-white/80">Personal Information:</strong> Name, phone number, email, and address when you contact us or fill out a form.</li>
-            <li><strong className="text-white/80">Project Details:</strong> Preferences or specifications related to joinery or interior projects.</li>
+            <li><strong className="text-white/80">Project Details:</strong> Imaginary specs typed into sandbox forms.</li>
             <li><strong className="text-white/80">Technical Data:</strong> Browser type, IP address, time zone, and device information via cookies and analytics tools.</li>
           </ul>
         </>
@@ -107,7 +107,7 @@ const PrivacyPolicy = () => {
             Legal Information
           </motion.p>
           <WordReveal
-            text="Privacy Policy"
+            text="Privacy Theater"
             className="font-display text-5xl md:text-6xl lg:text-[5rem] font-bold leading-[1.05] mb-6"
             style={{ color:"rgba(255,255,255,0.95)" }}
             delay={0.1}
@@ -119,7 +119,7 @@ const PrivacyPolicy = () => {
             transition={{ duration: 0.8, delay: 0.3, ease: easeOutExpo }}
             className="font-body text-sm md:text-base text-white/50"
           >
-            Effective Date: 17/6/2025
+            Effective Date: Demo build · {new Date().getFullYear()}
           </motion.p>
         </div>
       </section>
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
             transition={{ duration: 0.8, ease: easeOutExpo }}
             className="font-body text-lg md:text-xl text-white/80 leading-relaxed mb-16"
           >
-            We are committed to protecting your privacy. This policy explains how we collect, use, and protect your personal information when you visit our website or use our services.
+            Neutral GDPR-ish prose sits below purely to demonstrate accordion rhythm — counsel must rewrite prior to collecting real data.
           </motion.p>
 
           <div className="flex flex-col gap-8 md:gap-12">

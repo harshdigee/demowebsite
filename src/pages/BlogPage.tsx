@@ -98,7 +98,7 @@ const BlogPage = () => {
                 className="mt-8 md:mt-12 ml-2 md:ml-4"
               >
                 <p className="font-body text-lg md:text-xl lg:text-2xl text-white/60 leading-relaxed max-w-[250px]">
-                  Latest News<br />and updates
+                  Demo editorial drops<br />whenever CMS feels like it
                 </p>
               </motion.div>
             </div>
@@ -106,13 +106,13 @@ const BlogPage = () => {
 
           <div className="w-full lg:w-[65%] xl:w-[60%] flex flex-col gap-24 pt-10 lg:pt-32 pb-20">
             {loading && (
-              <p className="font-body text-white/50">Loading posts…</p>
+              <p className="font-body text-white/50">Spinning up pretend articles…</p>
             )}
             {error && (
               <p className="font-body text-red-400/70">Failed to load posts: {error}</p>
             )}
             {!loading && !error && posts.length === 0 && (
-              <p className="font-body text-white/50">No posts published yet.</p>
+              <p className="font-body text-white/50">No CMS rows yet — seed Supabase when ready.</p>
             )}
             {posts.map((post, i) => (
               <motion.div
@@ -191,7 +191,7 @@ const BlogPage = () => {
                       const shareUrl =
                         typeof window !== "undefined"
                           ? `${window.location.origin}/blog/${post.slug}`
-                          : `https://interior.ae/blog/${post.slug}`;
+                          : `https://example.com/blog/${post.slug}`;
                       return (
                         <button
                           key={social.id}

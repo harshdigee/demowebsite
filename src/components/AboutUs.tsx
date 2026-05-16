@@ -3,6 +3,7 @@ import { useRef } from"react";
 import { useNavigate } from"react-router-dom";
 import WordReveal from"@/components/WordReveal";
 import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
+import { DEMO_PARA_MEDIUM, DEMO_PARA_SHORT } from"@/constants/demoCopy";
 
 const elyseCurve = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -58,7 +59,7 @@ const AboutUs = () => {
               className="max-w-full"
             >
               <WordReveal
-                text="Timeless Craft. Precision-Focused Excellence."
+                text="Demo headline — craftsmanship placeholder."
                 className="font-display text-[2rem] md:text-[2.5rem] lg:text-[3rem] font-bold leading-[1.1] tracking-[-0.02em] max-w-full"
                 style={{ color:"rgba(255,255,255,0.92)" }}
                 delay={0.75}
@@ -82,7 +83,7 @@ const AboutUs = () => {
             >
               <motion.img
                 src={PLACEHOLDER_IMAGE}
-                alt="Interior Industries facility"
+                alt="Demo placeholder scene"
                 className="w-full h-full object-cover"
                 loading="eager"
                 style={{ display:"block", transformOrigin:"center" }}
@@ -125,7 +126,7 @@ const AboutUs = () => {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 1, delay: 0.1, ease: elyseCurve }}
             >
-              Every element reflects a commitment to excellence. From the precision of our CNC machinery to our thoughtfully curated materials, the facility embodies a holistic approach to luxury joinery.
+              {DEMO_PARA_MEDIUM}
             </motion.p>
 
             <motion.p
@@ -136,7 +137,7 @@ const AboutUs = () => {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 1, delay: 0.22, ease: elyseCurve }}
             >
-              Whether you're seeking bespoke interiors, fire-rated solutions, or a partner that fosters precision, we deliver it all.
+              {DEMO_PARA_SHORT}
             </motion.p>
 
             <motion.div

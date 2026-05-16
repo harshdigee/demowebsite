@@ -52,7 +52,7 @@ const ContactPage = () => {
             transition={{ duration: 0.9, ease: easeOutExpo }}
             className="font-display text-4xl md:text-5xl lg:text-[3.5rem] leading-tight text-white mb-4"
           >
-            Get in touch with our team
+            Reach out — demo copy only
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -61,7 +61,7 @@ const ContactPage = () => {
             transition={{ duration: 0.9, delay: 0.1, ease: easeOutExpo }}
             className="font-body text-sm md:text-base text-white/70 max-w-2xl mx-auto"
           >
-            Connect with our experts to discuss your joinery or fit-out requirements and discover how we can support your next project.
+            Connect with fictional stakeholders through this prototype form — submissions toast locally only.
           </motion.p>
         </div>
       </section>

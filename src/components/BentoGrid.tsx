@@ -6,30 +6,30 @@ const easeOutExpo = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
 const services = [
   {
-    title:"Culinary Engineering",
-    subtitle:"Custom Kitchens",
-    description:"Bespoke kitchen systems engineered for hospitality and residential developments. Full integration with MEP coordination.",
+    title:"Demo Tile Alpha",
+    subtitle:"Category Label",
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit — placeholder description for bento cells.",
     image: PLACEHOLDER_IMAGE,
     span:"md:col-span-2 md:row-span-2",
   },
   {
-    title:"Integrated Storage",
-    subtitle:"Wardrobes & Closets",
-    description:"Modular wardrobe systems with precision-fit tolerances for mass residential deployment.",
+    title:"Demo Tile Beta",
+    subtitle:"Category Label",
+    description:"Sed do eiusmod tempor incididunt ut labore — secondary filler blurb.",
     image: PLACEHOLDER_IMAGE,
     span:"md:col-span-1 md:row-span-1",
   },
   {
-    title:"0.1mm Accuracy",
-    subtitle:"CNC Joinery",
-    description:"Multi-axis CNC machining for complex geometries and repeatable quality at scale.",
+    title:"Demo Tile Gamma",
+    subtitle:"Category Label",
+    description:"Ut enim ad minim veniam quis nostrud — compact supporting sentence.",
     image: PLACEHOLDER_IMAGE,
     span:"md:col-span-1 md:row-span-1",
   },
   {
-    title:"Architectural Surfaces",
-    subtitle:"Wall Cladding",
-    description:"Engineered wood panel systems for lobbies, corridors, and feature walls. Fire-rated options available.",
+    title:"Demo Tile Delta",
+    subtitle:"Category Label",
+    description:"Duis aute irure dolor in reprehenderit — wide tile footer copy sample.",
     image: PLACEHOLDER_IMAGE,
     span:"md:col-span-2 md:row-span-1",
   },
@@ -79,12 +79,12 @@ const BentoGrid = () => {
         className="mb-16 relative z-10"
       >
         <WordReveal
-          text="Capabilities"
+          text="Demo Highlights"
           className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4"
           as="p"
         />
         <WordReveal
-          text="Four Disciplines. One Standard."
+          text="Four Tiles. Same Dummy Tone."
           className="font-display text-3xl md:text-5xl font-bold leading-tight"
           delay={0.1}
           as="h2"

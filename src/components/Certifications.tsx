@@ -3,33 +3,30 @@ import { ShieldCheck, Leaf, HardHat } from "lucide-react";
 
 const certifications = [
   {
-    title: "ISO 9001:2015",
-    description: "Quality Management System",
-    issuer: "QRO Certification LLP",
-    certNo: "305026011702QIZAT",
-    scope: "Manufacturing of Wooden Doors & Windows, Fire Resistant Wooden Doors and Wooden Decorative Products",
-    validity: "Valid until 16th January 2029",
-    pdf: "/certificates/iso-9001-2015.pdf",
+    title: "Demo ISO Suite · Alpha",
+    description: "Placeholder scope statement",
+    issuer: "Fictional Registrar LLC",
+    certNo: "DEMO-ISO-9001-001",
+    scope: "Imaginary widgets that prove modal spacing — replace before audits.",
+    validity: "Expires whenever you swap this JSON blob.",
     icon: ShieldCheck,
   },
   {
-    title: "ISO 14001:2015",
-    description: "Environmental Management System",
-    issuer: "QRO Certification LLP",
-    certNo: "305026011703E",
-    scope: "Manufacturing of Wooden Doors & Windows, Fire Resistant Wooden Doors and Wooden Decorative Products",
-    validity: "Valid until 16th January 2029",
-    pdf: "/certificates/iso-14001-2015.pdf",
+    title: "Demo ISO Suite · Beta",
+    description: "Environmental storyline stub",
+    issuer: "Fictional Registrar LLC",
+    certNo: "DEMO-ISO-14001-002",
+    scope: "Carbon-ish verbs without telemetry — filler clause number two.",
+    validity: "Illustrative validity line only.",
     icon: Leaf,
   },
   {
-    title: "ISO 45001:2018",
-    description: "Occupational Health & Safety Management System",
-    issuer: "QRO Certification LLP",
-    certNo: "305026011704HS",
-    scope: "Manufacturing of Wooden Doors & Windows, Fire Resistant Wooden Doors and Wooden Decorative Products",
-    validity: "Valid until 16th January 2029",
-    pdf: "/certificates/iso-45001-2018.pdf",
+    title: "Demo ISO Suite · Gamma",
+    description: "Safety narrative stub",
+    issuer: "Fictional Registrar LLC",
+    certNo: "DEMO-ISO-45001-003",
+    scope: "Hard hats pictured for icon balance — no onsite guarantees.",
+    validity: "Calendar decoration for designers.",
     icon: HardHat,
   },
 ];
@@ -50,7 +47,7 @@ const Certifications = () => {
               className="font-body text-[10px] tracking-[0.35em] uppercase mb-4"
               style={{ color: "#999999" }}
             >
-              Industry Standards
+              Demo badges
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -59,7 +56,7 @@ const Certifications = () => {
               transition={{ duration: 0.8, delay: 0.1, ease: easeOutExpo }}
               className="font-display text-3xl md:text-4xl font-bold text-white"
             >
-              Certifications & <span className="italic" style={{ color: "#999999" }}>Compliance</span>
+              Pretend <span className="italic" style={{ color: "#999999" }}>Certificates</span>
             </motion.h2>
           </div>
 
@@ -70,7 +67,7 @@ const Certifications = () => {
             transition={{ duration: 0.8, delay: 0.2, ease: easeOutExpo }}
             className="font-body text-sm text-white/50 max-w-md md:text-right"
           >
-            We are independently certified to internationally recognised ISO standards for quality, environmental responsibility, and occupational health & safety.
+            Cards mirror the visual language of compliance grids without linking to real PDFs — swap entire dataset before launch.
           </motion.p>
         </div>
 
@@ -80,9 +77,8 @@ const Certifications = () => {
             return (
               <motion.a
                 key={idx}
-                href={cert.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false, amount: 0.2 }}
@@ -101,7 +97,7 @@ const Certifications = () => {
                   <p className="font-body text-[10px] text-[#999999] uppercase tracking-wider">{cert.validity}</p>
                 </div>
                 <p className="font-body text-xs text-[#999999] mt-4 group-hover:text-white/70 transition-colors duration-300">
-                  View Certificate →
+                  Demo PDF (disabled) →
                 </p>
               </motion.a>
             );

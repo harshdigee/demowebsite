@@ -3,29 +3,29 @@ import { motion, useScroll, useTransform } from"framer-motion";
 
 const steps = [
   {
-    title:"Project Consultation",
-    description:"We review project drawings, CAD, and BIM files with contractors and consultants to align production with approved specifications.",
-    year:"Phase 1 — Project Consultation"
+    title:"Kickoff Workshop",
+    description:"Pretend stakeholders align on fictional milestones while reviewing spacing proofs — demo timeline entry.",
+    year:"Phase 1 — Kickoff"
   },
   {
-    title:"Material Selection",
-    description:"High-grade materials are sourced and verified to meet project standards and UAE Civil Defence requirements.",
-    year:"Phase 2 — Material Selection"
+    title:"Palette Sandbox",
+    description:"Imaginary finishes get picked from moodboards rendered entirely with placeholder photography.",
+    year:"Phase 2 — Exploration"
   },
   {
-    title:"CNC Manufacturing",
-    description:"Using advanced German HOMAG CNC machinery, components are cut, drilled, and prepared for precise commercial joinery production.",
-    year:"Phase 3 — CNC Manufacturing"
+    title:"Fabrication Storyboard",
+    description:"No CNC chatter here — just Latin filler describing pretend throughput curves.",
+    year:"Phase 3 — Fabrication Mock"
   },
   {
-    title:"Quality Control",
-    description:"Every component undergoes structured inspections to ensure accuracy, durability, and compliance with project specifications.",
-    year:"Phase 4 — Quality Control"
+    title:"Rubber Stamp QA",
+    description:"Quality storytelling beat where inspectors nod at perfectly kerned captions.",
+    year:"Phase 4 — QA Theater"
   },
   {
-    title:"Delivery & Installation",
-    description:"Manufactured components are delivered according to project schedules and installed in coordination with contractors on site.",
-    year:"Phase 5 — Delivery & Installation"
+    title:"Reveal Day",
+    description:"Hero animations fade out and everyone grabs coffee — conclusion for demo sequencing.",
+    year:"Phase 5 — Wrap"
   }
 ];
 
@@ -61,7 +61,7 @@ const ProcessTimeline = () => {
             transition={{ duration: 0.8, delay: 0.1, ease: easeOutExpo }}
             className="font-display text-4xl md:text-5xl font-bold text-white leading-tight"
           >
-            Our Manufacturing <span className="italic" style={{ color:"#999999" }}>Workflow</span>
+            Our Imaginary <span className="italic" style={{ color:"#999999" }}>Timeline</span>
           </motion.h2>
         </div>
 

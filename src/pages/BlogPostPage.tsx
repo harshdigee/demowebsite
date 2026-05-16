@@ -221,7 +221,7 @@ const BlogPostPage = () => {
             transition={{ duration: 0.75, delay: 0.06, ease: easeOutExpo }}
             className="mt-5 md:mt-6 font-body text-sm md:text-base text-white/85"
           >
-            By woodwestind
+            By Demo Author
           </motion.p>
         </div>
       </section>

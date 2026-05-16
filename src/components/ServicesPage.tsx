@@ -8,44 +8,44 @@ const easeOutExpo = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
 const services = [
   {
-    id:"joinery",
-    subtitle:"Custom Joinery",
-    title:"Custom Joinery Solutions in Dubai",
-    text:"Custom joinery brings creativity and skilled craftsmanship together in a flawless way. We focus on making every piece of joinery reflect the unique personality of your brand.",
+    id:"demo-a",
+    subtitle:"Demo Category A",
+    title:"Placeholder Service Title Alpha",
+    text:"Lorem ipsum dolor sit amet — illustrative card body for portfolio previews only.",
     image: PLACEHOLDER_IMAGE,
-    imageAlt:"Custom joinery craftsmanship at our facility",
+    imageAlt:"Demo service tile",
   },
   {
-    id:"cnc",
-    subtitle:"CNC Machining",
-    title:"CNC Machining & Precision Cutting",
-    text:"Precision plays a key role in building interiors that are both stylish and durable. We use cutting-edge CNC machining tools to turn designs into crafted pieces.",
+    id:"demo-b",
+    subtitle:"Demo Category B",
+    title:"Placeholder Service Title Beta",
+    text:"Consectetur adipiscing elit sed do eiusmod tempor incididunt — filler narrative.",
     image: PLACEHOLDER_IMAGE,
-    imageAlt:"HOMAG CNC machining equipment at our facility",
+    imageAlt:"Demo service tile",
   },
   {
-    id:"edge",
-    subtitle:"Edge Banding",
-    title:"Edge Banding & Finishing",
-    text:"Small details can create a big impact in spaces like retail stores and hotels. We pay close attention to edge banding and finishing because these touches matter.",
+    id:"demo-c",
+    subtitle:"Demo Category C",
+    title:"Placeholder Service Title Gamma",
+    text:"Ut enim ad minim veniam quis nostrud exercitation — second-row demo copy.",
     image: PLACEHOLDER_IMAGE,
-    imageAlt:"Edge banding and finishing quality control",
+    imageAlt:"Demo service tile",
   },
   {
-    id:"commercial",
-    subtitle:"Commercial",
-    title:"Commercial & Residential Projects",
-    text:"We put the same care and skill into every joinery or interior project we take on. Whether it's a cosy home or a large business space, you can expect quality in both.",
+    id:"demo-d",
+    subtitle:"Demo Category D",
+    title:"Placeholder Service Title Delta",
+    text:"Duis aute irure dolor in reprehenderit — neutral paragraph for grids.",
     image: PLACEHOLDER_IMAGE,
-    imageAlt:"Commercial hospitality interior project",
+    imageAlt:"Demo service tile",
   },
   {
-    id:"bespoke",
-    subtitle:"Bespoke Furniture",
-    title:"Bespoke Furniture Manufacturing",
-    text:"Furniture sets the tone and personality in any room. Custom-made furniture adds another layer by making your space personal.",
+    id:"demo-e",
+    subtitle:"Demo Category E",
+    title:"Placeholder Service Title Epsilon",
+    text:"Excepteur sint occaecat cupidatat non proident — closing filler sentence.",
     image: PLACEHOLDER_IMAGE,
-    imageAlt:"Bespoke furniture manufacturing line at our facility",
+    imageAlt:"Demo service tile",
   },
 ];
 
@@ -133,13 +133,13 @@ const ServicesPage = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-16 md:mb-20 text-center">
           <WordReveal
-            text="Our Services"
+            text="Demo Services Grid"
             className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-6"
             style={{ color:"#999999" }}
             as="p"
           />
           <WordReveal
-            text="Craftsmanship at Every Scale"
+            text="Neutral Copy For Layout Reviews"
             className="font-display text-3xl md:text-5xl font-bold leading-tight"
             style={{ color:"rgba(255,255,255,0.9)" }}
             delay={0.1}

@@ -4,30 +4,30 @@ import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const team = [
   {
-    name:"Masih Imtiaz",
-    role:"Chief Executive Officer",
+    name:"Alex Demo",
+    role:"Chief Pretend Officer",
     image: PLACEHOLDER_IMAGE,
-    bio:"Visionary leader driving strategic growth and innovation in the bespoke joinery sector across the UAE.",
+    bio:"Leads imaginary roadmap rituals while stakeholders critique gradients.",
     socials: {
       linkedin:"#",
       email:"#"
     }
   },
   {
-    name:"Ahmed Raza",
-    role:"Operations Director",
+    name:"Jordan Sample",
+    role:"Demo Operations Lead",
     image: PLACEHOLDER_IMAGE,
-    bio:"Overseeing the entire manufacturing lifecycle, ensuring precision engineering and strict adherence to quality standards.",
+    bio:"Keeps Gannt-themed doodles aligned with faux throughput charts.",
     socials: {
       linkedin:"#",
       email:"#"
     }
   },
   {
-    name:"Elena Petrova",
-    role:"Head of Design",
+    name:"Sam Placeholder",
+    role:"Head of Storyboards",
     image: PLACEHOLDER_IMAGE,
-    bio:"Translating complex architectural concepts into manufacturable, high-end joinery solutions with an eye for detail.",
+    bio:"Translates napkin sketches into Framer timelines nobody ships yet.",
     socials: {
       linkedin:"#",
       email:"#"
@@ -50,7 +50,7 @@ const LeadershipTeam = () => {
             className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-6"
             style={{ color:"#999999" }}
           >
-            The Visionaries
+            Fiction Writers Room
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -59,7 +59,7 @@ const LeadershipTeam = () => {
             transition={{ duration: 0.8, delay: 0.1, ease: easeOutExpo }}
             className="font-display text-4xl md:text-5xl font-bold text-white leading-tight"
           >
-            Our Leadership <span className="italic" style={{ color:"#999999" }}>Team</span>
+            Pretend Leadership <span className="italic" style={{ color:"#999999" }}>Deck</span>
           </motion.h2>
           <motion.p
              initial={{ opacity: 0, y: 20 }}
@@ -68,7 +68,7 @@ const LeadershipTeam = () => {
              transition={{ duration: 0.8, delay: 0.2, ease: easeOutExpo }}
              className="font-body text-sm text-white/50 max-w-2xl mt-8 text-center leading-relaxed"
           >
-            Guided by decades of collective experience, our leadership team is dedicated to pushing the boundaries of craftsmanship, engineering, and service excellence in the commercial fit-out industry.
+            Faces below mirror LinkedIn tropes — swap photography + bios once HR supplies canonical profiles.
           </motion.p>
         </div>
 

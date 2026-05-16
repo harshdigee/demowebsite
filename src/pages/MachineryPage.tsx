@@ -58,7 +58,7 @@ const MachineryPage = () => {
               className="font-display text-sm md:text-base tracking-[0.3em] uppercase mb-4"
               style={{ color: "#999999" }}
             >
-              Precision Engineering
+              Demo Precision Lane
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 40, filter: "blur(12px)" }}
@@ -67,7 +67,7 @@ const MachineryPage = () => {
               className="font-display text-4xl md:text-6xl lg:text-7xl leading-tight"
               style={{ color: "hsl(33, 30%, 90%)" }}
             >
-              Our <span className="text-gold-gradient">Machinery</span>
+              Our <span className="text-gold-gradient">Machinery Deck</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -76,9 +76,7 @@ const MachineryPage = () => {
               className="font-body text-sm md:text-base mt-6 max-w-2xl leading-relaxed"
               style={{ color: "rgba(255, 255, 255, 0.65)" }}
             >
-              State-of-the-art German-engineered machines powering world-class
-              joinery. From HOMAG CNC systems to WEINIG moulders and Cefla
-              coating lines — every cut is a commitment to perfection.
+              Imaginary machines populate this scroll journey — specs intentionally vague until content arrives.
             </motion.p>
           </div>
         </div>
@@ -95,11 +93,11 @@ const MachineryPage = () => {
         }}
       >
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          {[
-            { value: "50+", label: "Machines" },
-            { value: "100%", label: "German Engineered" },
-            { value: "24/7", label: "Production" },
-            { value: "ISO", label: "Certified" },
+            {[
+            { value: "42", label: "Demo statistic A" },
+            { value: "100%", label: "Placeholder KPI" },
+            { value: "24/7", label: "Narrative flourish" },
+            { value: "stub", label: "Compliance badge copy" },
           ].map((stat, i) => (
             <motion.div
               key={stat.label}
@@ -175,7 +173,7 @@ const MachineryPage = () => {
             className="font-display text-2xl md:text-4xl mb-3 text-center"
             style={{ color: "hsl(33, 30%, 90%)" }}
           >
-            Complete <span className="text-gold-gradient">Equipment List</span>
+            Demo <span className="text-gold-gradient">Equipment Grid</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -185,13 +183,13 @@ const MachineryPage = () => {
             className="font-body text-sm mb-12 max-w-xl mx-auto text-center"
             style={{ color: "rgba(255, 255, 255, 0.5)" }}
           >
-            A comprehensive overview of every machine across our production facility
+            Invented lineup covering pretend departments — swap CSV later.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <EquipmentTable title="Panel Section" items={panelSectionEquipment} />
-            <EquipmentTable title="Milling & Veneer Section" items={millingVeneerEquipment} />
-            <EquipmentTable title="Sanding Section" items={sandingSectionEquipment} />
+            <EquipmentTable title="Demo grouping · Panels" items={panelSectionEquipment} />
+            <EquipmentTable title="Demo grouping · Milling" items={millingVeneerEquipment} />
+            <EquipmentTable title="Demo grouping · Sanding" items={sandingSectionEquipment} />
           </div>
         </div>
       </section>

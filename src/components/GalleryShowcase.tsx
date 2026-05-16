@@ -7,30 +7,30 @@ const gallerySlides = [
   {
     id: 1,
     src: PLACEHOLDER_IMAGE,
-    alt: "Gallery placeholder",
-    title: "ADVANCED\nMACHINERY",
-    description: "Industry-leading equipment for accurate cutting, drilling, and shaping at production scale.",
+    alt: "Demo slide",
+    title: "SLIDE\nALPHA",
+    description: "First carousel caption uses neutral Latin — tweak character counts later.",
   },
   {
     id: 2,
     src: PLACEHOLDER_IMAGE,
-    alt: "Gallery placeholder",
-    title: "CNC\nMACHINING",
-    description: "Precision routing and drilling for complex components and repeat manufacturing.",
+    alt: "Demo slide",
+    title: "SLIDE\nBETA",
+    description: "Second beat emphasizes motion easing rather than factual claims.",
   },
   {
     id: 3,
     src: PLACEHOLDER_IMAGE,
-    alt: "Gallery placeholder",
-    title: "EDGE\nFINISHING",
-    description: "Consistent edge application for durable, specification-grade joinery.",
+    alt: "Demo slide",
+    title: "SLIDE\nGAMMA",
+    description: "Third placeholder keeps rhythm between headline stacks.",
   },
   {
     id: 4,
     src: PLACEHOLDER_IMAGE,
-    alt: "Gallery placeholder",
-    title: "CUSTOM\nJOINERY",
-    description: "Bespoke components and interiors engineered to drawing and sample approval.",
+    alt: "Demo slide",
+    title: "SLIDE\nDELTA",
+    description: "Final caption proves paragraph width before swapping photography.",
   },
 ];
 
@@ -90,14 +90,14 @@ const GalleryShowcase = () => {
     >
       <div className="w-full px-8 md:px-16 pt-12 z-30 flex justify-between items-center">
         <p className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-4" style={{ color:"#999999" }}>
-          Our Gallery
+          Demo carousel
         </p>
         <Link
           to="/gallery"
           className="font-body text-[10px] tracking-[0.2em] uppercase hover:text-[#999999] transition-colors"
           style={{ color:"rgba(255,255,255,0.7)" }}
         >
-          View Full Gallery
+          Open gallery route
         </Link>
       </div>
 

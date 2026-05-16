@@ -24,7 +24,7 @@ const TermsConditions = () => {
     },
     {
       title:"2. Services Overview",
-      content:"We offer bespoke joinery, custom furniture, kitchen cabinetry, wall paneling, fit-outs, and related woodworking solutions. All products are custom-made, subject to availability and confirmed specifications.",
+      content:"We pretend to sell imaginary bespoke widgets, renders, and moodboards until commerce hooks arrive.",
     },
     {
       title:"3. Quotes & Pricing",
@@ -79,7 +79,7 @@ const TermsConditions = () => {
     },
     {
       title:"10. Governing Law",
-      content:"These terms are governed by the laws of UAE.",
+      content:"Jurisdiction placeholder — specify real courts before accepting payments.",
     },
     {
       title:"11. Contact",
@@ -114,7 +114,7 @@ const TermsConditions = () => {
             Legal Information
           </motion.p>
           <WordReveal
-            text="Terms & Conditions"
+            text="Terms Sandbox"
             className="font-display text-5xl md:text-6xl lg:text-[5rem] font-bold leading-[1.05] mb-6"
             style={{ color:"rgba(255,255,255,0.95)" }}
             delay={0.1}
@@ -126,7 +126,7 @@ const TermsConditions = () => {
             transition={{ duration: 0.8, delay: 0.3, ease: easeOutExpo }}
             className="font-body text-sm md:text-base text-white/50"
           >
-            Effective Date: 17/6/2025
+            Effective Date: Demo build · {new Date().getFullYear()}
           </motion.p>
         </div>
       </section>
@@ -142,7 +142,7 @@ const TermsConditions = () => {
             transition={{ duration: 0.8, ease: easeOutExpo }}
             className="font-body text-lg md:text-xl text-white/80 leading-relaxed mb-16"
           >
-            These Terms & Conditions govern your use of our website and services.
+            Boilerplate tone ahead — lawyers should torch this mock before launch traffic arrives.
           </motion.p>
 
           <div className="flex flex-col gap-8 md:gap-12">

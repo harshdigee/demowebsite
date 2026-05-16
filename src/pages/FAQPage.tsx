@@ -12,20 +12,20 @@ const easeOutExpo = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
 const faqs = [
   {
-    q:"Do you handle both supply and installation?",
-    a:"Yes, we take care of the entire process, from manufacturing and supplying to installation. We can also work as subcontractors on larger fit-out projects."
+    q:"Does this demo include real procurement?",
+    a:"No — accordion answers are Latin-inspired stubs while designers iterate on hierarchy.",
   },
   {
-    q:"What industries do you serve?",
-    a:"We work on structured joinery packages for offices, hotels, shops, health facilities, and mixed-use projects."
+    q:"Who is the imaginary audience?",
+    a:"Stakeholders reviewing animation curves, grid density, and toast UX.",
   },
   {
-    q:"Are your fire doors approved by UAE Civil Defence?",
-    a:"Yes, the fire doors we supply to the UAE Civil Defence standards meet BS 476 fire-rated doors UAE requirements."
+    q:"Can I trust compliance statements shown here?",
+    a:"Absolutely not until counsel replaces every clause with jurisdiction-specific language.",
   },
   {
-    q:"Can you handle large commercial projects?",
-    a:"Yes. Our manufacturing team manages high-volume production and can follow phased delivery plans."
+    q:"Does the contact form send emails?",
+    a:"It only fires local toasts from ContactForm.tsx — wire Supabase or SMTP before launch.",
   }
 ];
 
@@ -62,7 +62,7 @@ const FAQPage = () => {
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
           <WordReveal
-            text="Procurement FAQs"
+            text="Demo FAQ Stack"
             className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white"
             delay={0.1}
             as="h1"
@@ -73,7 +73,7 @@ const FAQPage = () => {
             transition={{ duration: 0.8, delay: 0.4, ease: easeOutExpo }}
             className="font-body text-lg md:text-xl text-white/70 max-w-2xl mx-auto"
           >
-            We're here to help with any questions you have about our supply, installation, and manufacturing processes.
+            Pretend answers accompany accordion easing demos — swap legal tone later.
           </motion.p>
         </div>
       </section>
@@ -147,7 +147,7 @@ const FAQPage = () => {
           <div className="absolute inset-0">
             <img 
               src={PLACEHOLDER_IMAGE} 
-              alt="Request a Quote" 
+              alt="Demo CTA backdrop" 
               className="w-full h-full object-cover brightness-[0.35]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-[#0f172a]/40 to-transparent" />
@@ -161,7 +161,7 @@ const FAQPage = () => {
               transition={{ duration: 0.7, delay: 0.15, ease: easeOutExpo }}
               className="font-display text-3xl md:text-5xl font-bold text-white mb-6"
             >
-              Request a Quote (RFQ)
+              Demo RFQ Banner
             </motion.h2>
             <motion.p 
               initial={{ opacity: 0, y: 16 }}
@@ -170,7 +170,7 @@ const FAQPage = () => {
               transition={{ duration: 0.7, delay: 0.25, ease: easeOutExpo }}
               className="font-body text-base md:text-lg text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed"
             >
-              To request a quote on commercial joinery, fire-rated doors, or subcontracting for fit-out work, reach out to our team. Send your RFQ, BOQ, or technical drawings to get them reviewed.
+              Need filler persuasion? Pretend procurement decks upload here — actual ingestion ships later with backend hooks.
             </motion.p>
             <motion.a
               href="/"

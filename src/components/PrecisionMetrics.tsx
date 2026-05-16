@@ -64,10 +64,10 @@ const PrecisionMetrics = () => {
           className="md:absolute md:top-12 md:left-8 lg:left-16 mb-6 md:mb-0"
         >
           <p className="font-display text-xl md:text-2xl lg:text-3xl font-bold tracking-widest uppercase mb-2 md:mb-4" style={{ color:"#999999" }}>
-            Performance
+            Demo metrics
           </p>
           <h2 className="font-display font-bold text-base md:text-xl" style={{ color:"#999999" }}>
-            The Precision Metrics
+            Imaginary KPI Strip
           </h2>
         </motion.div>
 
@@ -94,7 +94,7 @@ const PrecisionMetrics = () => {
               </div>
               <p className="font-body text-[10px] leading-snug mt-2 text-center" style={{ color:"rgba(255,255,255,0.5)" }}>
                 <strong className="font-medium text-white/75 block mb-0.5 text-[11px]">Repeat Rate</strong>
-                Client retention
+                Illustrative retention stat
               </p>
             </motion.div>
 
@@ -117,7 +117,7 @@ const PrecisionMetrics = () => {
               </div>
               <p className="font-body text-[10px] leading-snug mt-2 text-center" style={{ color:"rgba(255,255,255,0.5)" }}>
                 <strong className="font-medium text-white/75 block mb-0.5 text-[11px]">Years Experience</strong>
-                Precision craftsmanship
+                Fake tenure meter
               </p>
             </motion.div>
 
@@ -140,11 +140,11 @@ const PrecisionMetrics = () => {
               </div>
               <p className="font-body text-[10px] leading-snug mt-2 text-center" style={{ color:"rgba(255,255,255,0.5)" }}>
                 <strong className="font-medium text-white/75 block mb-0.5 text-[11px]">Approval Rate</strong>
-                200+ projects
+                Pretend projects tally
               </p>
             </motion.div>
 
-            {/* UAE */}
+            {/* DEMO HQ */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -155,12 +155,12 @@ const PrecisionMetrics = () => {
             >
               <div className="flex items-baseline justify-center">
                 <span className="font-display font-bold" style={{ fontSize:"clamp(28px, 9vw, 44px)", color:"rgba(255,255,255,0.95)", lineHeight: 1 }}>
-                  UAE
+                  DEMO
                 </span>
               </div>
               <p className="font-body text-[10px] leading-snug mt-2 text-center" style={{ color:"rgba(255,255,255,0.5)" }}>
-                <strong className="font-medium text-white/75 block mb-0.5 text-[11px]">Manufacturing</strong>
-                Ras Al Khaimah, RAK
+                <strong className="font-medium text-white/75 block mb-0.5 text-[11px]">HQ Label</strong>
+                Demo City • Imaginary Zone
               </p>
             </motion.div>
           </div>
@@ -185,7 +185,7 @@ const PrecisionMetrics = () => {
               </div>
               <p className="font-body text-xs leading-relaxed mt-6 max-w-[220px]" style={{ color:"rgba(255,255,255,0.6)" }}>
                 <strong className="font-medium text-white/80 block mb-1">Mock-up Approval Rate</strong>
-                First-submission accuracy across 200+ projects
+                Demo caption tied to animated percentage counters
               </p>
             </motion.div>
 
@@ -207,7 +207,7 @@ const PrecisionMetrics = () => {
               </div>
               <p className="font-body text-xs leading-relaxed mt-6 max-w-[200px]" style={{ color:"rgba(255,255,255,0.6)" }}>
                 <strong className="font-medium text-white/80 block mb-1">Project Repeat Rate</strong>
-                Client retention through consistent delivery
+                Placeholder subtitle describing fictional loyalty metrics
               </p>
             </motion.div>
 
@@ -229,11 +229,11 @@ const PrecisionMetrics = () => {
               </div>
               <p className="font-body text-xs leading-relaxed mt-6 max-w-[200px]" style={{ color:"rgba(255,255,255,0.6)" }}>
                 <strong className="font-medium text-white/80 block mb-1">Years Experience</strong>
-                Decades of precision craftsmanship
+                Decorative counter — not sourced data
               </p>
             </motion.div>
 
-            {/* UAE — Bottom Middle */}
+            {/* DEMO HQ — Bottom Middle */}
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -243,12 +243,12 @@ const PrecisionMetrics = () => {
             >
               <div className="flex items-baseline">
                 <span className="font-display font-bold" style={{ fontSize:"clamp(80px, 11vw, 150px)", color:"rgba(255,255,255,0.95)", lineHeight: 0.8 }}>
-                  UAE
+                  DEMO
                 </span>
               </div>
               <p className="font-body text-xs leading-relaxed mt-6 max-w-[240px]" style={{ color:"rgba(255,255,255,0.6)" }}>
-                <strong className="font-medium text-white/80 block mb-1">Based Manufacturing</strong>
-                Ras Al Khaimah facility, Al Ghail Industrial Zone
+                <strong className="font-medium text-white/80 block mb-1">Based HQ</strong>
+                Pretend campus somewhere scenic
               </p>
             </motion.div>
           </div>

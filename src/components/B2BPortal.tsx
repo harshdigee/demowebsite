@@ -6,28 +6,28 @@ const E = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
 const cards = [
   {
-    title:"CAD FILES\nAVAILABILITY",
-    body:"Download-ready .dwg and .3dm\nfiles for every product line.\nSeamless BIM integration.",
+    title:"CAD FILES\nPLACEHOLDER",
+    body:"Demo bullet list pretending files export.\nNo real downloads attached.",
     num:"1",
   },
   {
-    title:"SUSTAINABILITY\nCOMPLIANCE",
-    body:"All engineered panels meet\nEuropean emission standards.\nFull material traceability.",
+    title:"SUSTAINABILITY\nSTUB",
+    body:"Fictional environmental storyline.\nSwap KPIs later.",
     num:"2",
   },
   {
-    title:"MASS-PRODUCTION\nCAPACITY",
-    body:"15,000 sq.ft. facility with\nmulti-shift capability. Scalable\noutput from prototype.",
+    title:"CAPACITY\nSTATS",
+    body:"Imaginary square footage metrics.\nNumbers mean nothing here.",
     num:"3",
   },
   {
-    title:"PRECISION\nENGINEERING",
-    body:"Master craftsmanship combined\nwith next-generation German\nHOMAG CNC machinery.",
+    title:"ENGINEERING\nBLURB",
+    body:"Neutral ops narrative.\nGerman nouns removed on purpose.",
     num:"4",
   },
   {
-    title:"UAE CIVIL\nDEFENSE",
-    body:"Fully compliant fire-rated door\nand joinery solutions. Certified to\nmeet all UAE regulations.",
+    title:"COMPLIANCE\nMOCK",
+    body:"Pretend approvals paragraph.\nReplace with counsel-reviewed claims.",
     num:"5",
   },
 ];
@@ -119,7 +119,7 @@ const B2BPortal = () => {
       {/* ── Parallax background ── */}
       <motion.img
         src={PLACEHOLDER_IMAGE}
-            alt="Manufacturing facility interior"
+            alt="Demo manufacturing backdrop"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ y: bgY, scale: 1.15 }}
       />
@@ -149,7 +149,7 @@ const B2BPortal = () => {
               className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-6"
               style={{ color:"#999999" }}
             >
-              Why Choose Us?
+              Why this demo section?
             </p>
             <div className="mb-10">
               <div className="w-16 h-px bg-white/20 mb-6"></div>
@@ -163,8 +163,8 @@ const B2BPortal = () => {
                   overflowWrap:"normal",
                 }}
               >
-                Advanced manufacturing.<br />
-                Systematic execution.
+                Neutral layouts.<br />
+                Imaginary workflows.
               </h2>
             </div>
             
@@ -178,7 +178,7 @@ const B2BPortal = () => {
                   overflowWrap:"normal",
                 }}
               >
-                We blend advanced manufacturing with disciplined project execution so complex commercial joinery moves from drawing board to finished space without surprises.
+                Arcu cursus euismod quis viverra nibh cras pulvinar mattis — paragraph one with fictional collaboration vibes for stakeholder mock reviews.
               </p>
               <p
                 className="font-body text-sm leading-[1.7] text-justify max-w-full"
@@ -189,7 +189,7 @@ const B2BPortal = () => {
                   overflowWrap:"normal",
                 }}
               >
-                Our teams stay close to contractors and consultants, aligning design intent, shop drawings, and onsite sequencing with the overall construction programme.
+                Pretend RACI charts and imaginary consultants appear here — purely filler until product teams inject specifics.
               </p>
             </div>
 
@@ -199,7 +199,7 @@ const B2BPortal = () => {
                 className="inline-flex items-center justify-center px-8 py-3.5 font-body text-xs tracking-[0.2em] uppercase transition-all duration-500 rounded-full hover:bg-white/10"
                 style={{ border:"1px solid #999999", color:"#999999" }}
               >
-                Technical Consultation
+                Demo secondary button
               </a>
             </div>
           </motion.div>

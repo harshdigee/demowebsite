@@ -2,6 +2,7 @@ import { motion, AnimatePresence, useScroll, useTransform } from"framer-motion";
 import { Menu, X } from"lucide-react";
 import { useState, useCallback } from"react";
 import { useNavigate, useLocation } from"react-router-dom";
+import { DEMO_SITE_LABEL } from"@/constants/demoCopy";
 
 const navItems = ["About Us","Services","Gallery","Machinery","Contact"];
 
@@ -80,7 +81,7 @@ const Navbar = () => {
 
           {/* Centered wordmark */}
           <a onClick={(e) => { e.preventDefault(); handleLogoClick(); }} className="flex-shrink-0 cursor-pointer">
-            <span className="font-display text-sm md:text-base tracking-[0.25em] uppercase font-semibold" style={{ color: "rgba(255,255,255,0.9)" }}>Interiors</span>
+            <span className="font-display text-sm md:text-base tracking-[0.25em] uppercase font-semibold" style={{ color: "rgba(255,255,255,0.9)" }}>{DEMO_SITE_LABEL}</span>
           </a>
 
           {/* Desktop nav links - right */}
@@ -140,7 +141,7 @@ const Navbar = () => {
               }}
             >
               <div className="flex justify-between items-center mb-16">
-                <span className="font-display text-sm tracking-[0.25em] uppercase font-semibold" style={{ color: "rgba(255,255,255,0.9)" }}>Interiors</span>
+                <span className="font-display text-sm tracking-[0.25em] uppercase font-semibold" style={{ color: "rgba(255,255,255,0.9)" }}>{DEMO_SITE_LABEL}</span>
                 <button onClick={() => setSidebarOpen(false)} aria-label="Close menu">
                   <X className="w-5 h-5" style={{ color:"rgba(255, 255, 255, 0.7)" }} />
                 </button>

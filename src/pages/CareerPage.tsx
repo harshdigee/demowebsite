@@ -22,20 +22,20 @@ const CareerPage = () => {
 
   const benefits = [
     {
-      title:"WELL DEFINED CAREER PATH",
-      desc:"Clear progression frameworks that recognize and reward your growing expertise in joinery and manufacturing.",
+      title:"DEMO CAREER PATH",
+      desc:"Bullet describing imaginary ladders — swap KPIs once HR weighs in.",
     },
     {
-      title:"UNPARALLELED CAREER GROWTH",
-      desc:"Opportunities to work on high-profile, large-scale commercial projects that elevate your professional portfolio.",
+      title:"MAKE-BELIEVE GROWTH",
+      desc:"Placeholder perk highlighting mentorship vibes sans payroll facts.",
     },
     {
-      title:"INNOVATION DRIVEN CULTURE",
-      desc:"Access to state-of-the-art German technology and a workplace that encourages creative problem-solving.",
+      title:"PROTOTYPE CULTURE",
+      desc:"Culture sentence referencing fictional hack weeks and sticker sheets.",
     },
     {
-      title:"REWARDING EXCELLENCE",
-      desc:"Competitive compensation and a supportive environment that truly values your craftsmanship and dedication.",
+      title:"COMP MOCKUPS",
+      desc:"Compensation copy intentionally vague until recruiting approves numbers.",
     },
   ];
 
@@ -72,11 +72,11 @@ const CareerPage = () => {
               className="font-body text-xs tracking-[0.35em] uppercase mb-5"
               style={{ color:"#999999" }}
             >
-              Let's Work Together
+              Let's Pretend Together
             </motion.p>
 
             <WordReveal
-              text="Join Our Team of Craftsmanship and Innovation"
+              text="Careers Page Sandbox"
               className="font-display text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-[1.08] mb-6"
               style={{ color:"rgba(255,255,255,0.96)" }}
               delay={0.1}
@@ -91,7 +91,7 @@ const CareerPage = () => {
               className="font-body text-sm md:text-base leading-relaxed md:leading-loose"
               style={{ color:"rgba(255,255,255,0.72)" }}
             >
-              We don’t just build furniture—we craft experiences, shape environments, and redefine spaces with precision and purpose. Our team is at the heart of everything we do, blending traditional craftsmanship with advanced German technology to deliver exceptional joinery solutions. We’re always looking for passionate, creative, and skilled individuals who share our commitment to quality, innovation, and excellence.
+              Narrative fluff ahead: pretend teammates prototype cabinetry decks while recruiters hunt real JDs offline.
             </motion.p>
           </motion.div>
         </div>
@@ -114,7 +114,7 @@ const CareerPage = () => {
               Advantages
             </motion.p>
             <WordReveal
-              text="Benefits of Working With Us"
+              text="Perks Invented For Decks"
               className="font-display text-4xl md:text-5xl font-bold leading-[1.1] max-w-3xl mx-auto"
               style={{ color:"rgba(255,255,255,0.95)" }}
               delay={0.1}
@@ -179,7 +179,8 @@ const CareerPage = () => {
           transition={{ duration: 1, ease: easeOutExpo }}
         >
           <a
-            href="mailto:careers@interior.ae"
+            href="#"
+            onClick={(e) => e.preventDefault()}
             className="inline-flex items-center gap-3 px-10 py-4 rounded-full font-body text-sm tracking-[0.2em] uppercase transition-all duration-500 cursor-pointer"
             style={{
               color:"white",

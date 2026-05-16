@@ -33,7 +33,7 @@ const Gallery = () => {
             className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-6"
             style={{ color:"#999999" }}
           >
-            Our Gallery
+            Demo Still Grid
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30, filter:"blur(10px)" }}
@@ -42,9 +42,9 @@ const Gallery = () => {
             className="font-display text-4xl md:text-6xl lg:text-7xl leading-tight"
             style={{ color:"hsl(33, 30%, 90%)" }}
           >
-            Craftsmanship
+            Masonry
             <br />
-            <span className="text-gold-gradient">In Every Frame.</span>
+            <span className="text-gold-gradient">Placeholder Tiles.</span>
           </motion.h1>
         </div>
       </section>

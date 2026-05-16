@@ -1,4 +1,5 @@
 import { useNavigate } from"react-router-dom";
+import { DEMO_SITE_LABEL, DEMO_PARA_SHORT, DEMO_COPYRIGHT_ENTITY } from"@/constants/demoCopy";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -12,9 +13,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {/* Brand + description */}
           <div className="md:col-span-1 max-w-full">
-            <span className="font-display text-base tracking-[0.25em] uppercase font-semibold block mb-5" style={{ color: "rgba(255,255,255,0.9)" }}>Interiors</span>
+            <span className="font-display text-base tracking-[0.25em] uppercase font-semibold block mb-5" style={{ color: "rgba(255,255,255,0.9)" }}>{DEMO_SITE_LABEL}</span>
             <p className="font-body text-sm leading-[1.6] max-w-full text-left" style={{ color:"rgba(255,255,255,0.5)" }}>
-              Precision joinery and custom furniture manufacturing for architects, developers, and hospitality groups across the UAE.
+              {DEMO_PARA_SHORT}
             </p>
           </div>
 
@@ -74,7 +75,7 @@ const Footer = () => {
           style={{ borderTop:"0.5px solid rgba(255,255,255,0.1)" }}
         >
           <p className="font-body text-xs" style={{ color:"rgba(255,255,255,0.4)" }}>
-            &copy; {new Date().getFullYear()} Interior Industries. All Rights Reserved.
+            &copy; {new Date().getFullYear()} {DEMO_COPYRIGHT_ENTITY}. Demo layout only.
           </p>
 
           <div className="flex gap-4">

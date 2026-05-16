@@ -35,21 +35,23 @@ const ContactForm = () => {
     e.preventDefault();
     if (!agreed) {
       toast({
-        title: "Please agree to the Privacy Policy",
+        title: "Demo acknowledgement",
+        description: "Privacy checkbox required — swap messaging when policies go live.",
         variant: "destructive",
       });
       return;
     }
     if (!form.firstName || !form.email || !form.phone) {
       toast({
-        title: "Please fill in all required fields",
+        title: "Validation",
+        description: "Demo form wants first name, email, and phone filled.",
         variant: "destructive",
       });
       return;
     }
     toast({
-      title: "Message sent",
-      description: "Thank you — we will get back to you shortly.",
+      title: "Demo submit recorded",
+      description: "Nothing leaves the browser — hook your API next.",
     });
     setForm({
       firstName: "",
@@ -130,11 +132,7 @@ const ContactForm = () => {
           className="mt-1 rounded border-white/20 bg-white/5"
         />
         <span className="font-body text-xs leading-relaxed text-white/55">
-          I agree to the{" "}
-          <a href="/privacy-policy" className="text-[#999999] hover:underline">
-            Privacy Policy
-          </a>
-          .
+          I acknowledge this checkbox demo ties to a pretend Privacy Policy link.
         </span>
       </label>
       <button

@@ -29,7 +29,7 @@ const ContactUs = () => {
             className="font-display text-4xl md:text-5xl lg:text-6xl leading-tight"
             style={{ color:"hsl(33, 30%, 90%)" }}
           >
-            Let's Work <span className="text-gold-gradient">Together.</span>
+            Let's Collaborate <span className="text-gold-gradient">(demo).</span>
           </motion.h2>
         </div>
 

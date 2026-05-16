@@ -1,5 +1,6 @@
 import { motion } from"framer-motion";
 import { Play } from"lucide-react";
+import { DEMO_HEADLINE_HERO } from"@/constants/demoCopy";
 
 const HeroSection = () => {
   return (
@@ -36,10 +37,16 @@ const HeroSection = () => {
             <Play className="w-8 h-8 ml-1" style={{ color: "rgba(255,255,255,0.6)" }} />
           </div>
           <p
-            className="font-body text-xs tracking-[0.3em] uppercase"
+            className="font-body text-xs tracking-[0.3em] uppercase mb-3"
             style={{ color: "rgba(255,255,255,0.3)" }}
           >
             Video Placeholder
+          </p>
+          <p
+            className="font-display text-center text-sm md:text-lg tracking-[0.08em] max-w-xl px-4"
+            style={{ color: "rgba(255,255,255,0.55)" }}
+          >
+            {DEMO_HEADLINE_HERO}
           </p>
         </motion.div>
       </div>

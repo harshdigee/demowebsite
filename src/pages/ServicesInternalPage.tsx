@@ -47,7 +47,7 @@ const ServicesInternalPage = () => {
             Our Services
           </motion.p>
           <WordReveal
-            text="Commercial Joinery and Fit-Out Services in the UAE"
+            text="Demo Services Overview"
             className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-8"
             style={{ color:"rgba(255,255,255,0.95)" }}
             delay={0.3}
@@ -61,7 +61,7 @@ const ServicesInternalPage = () => {
             style={{ color:"rgba(255,255,255,0.6)" }}
             lang="en"
           >
-            We deliver large-scale commercial joinery and fit-out packages across the UAE. We partner with developers, main contractors, and hospitality operators to manufacture and install high-quality joinery for complex projects. From production to final installation, our team ensures precision, consistency, and on-time delivery.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. This paragraph is placeholder copy for portfolio demos — swap with real messaging before launch.
           </motion.p>
         </div>
       </section>
@@ -90,7 +90,7 @@ const ServicesInternalPage = () => {
               className="font-display text-3xl md:text-4xl font-bold leading-[1.1] mb-6"
               style={{ color:"rgba(255,255,255,0.95)" }}
             >
-              Custom Joinery Solutions in Dubai
+              Demo Section Alpha
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -100,47 +100,17 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] mb-4 text-justify"
               style={{ color:"rgba(255,255,255,0.6)" }}
             >
-              We provide fully integrated joinery solutions for commercial fit-out projects across the UAE.
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: 0.25, ease: E }}
-              className="font-body text-base leading-[1.8] mb-4 text-justify"
-              style={{ color:"rgba(255,255,255,0.6)" }}
-            >
-              We support contractors and developers across offices, hotels, retail spaces, healthcare facilities, and mixed-use developments.
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: 0.3, ease: E }}
-              className="font-body text-base leading-[1.8] mb-4 text-justify"
-              style={{ color:"rgba(255,255,255,0.6)" }}
-            >
-              Our scope covers manufacturing, supply, and installation of complete joinery packages, delivered in line with approved shop drawings, specifications, and project timelines.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium — dummy narrative for UI demonstration only.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false, amount: 0.2 }}
               transition={{ duration: 0.8, delay: 0.35, ease: E }}
-              className="font-body text-base leading-[1.8] mb-4 text-justify"
-              style={{ color:"rgba(255,255,255,0.5)" }}
-            >
-              Our capabilities include reception areas, cabinetry, wall cladding, workstations, and bespoke architectural joinery.
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.2 }}
-              transition={{ duration: 0.8, delay: 0.4, ease: E }}
               className="font-body text-base leading-[1.8] text-justify"
               style={{ color:"rgba(255,255,255,0.5)" }}
             >
-              With a strong track record in large-scale production, we ensure seamless coordination between factory output and on-site installation.
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet — another filler paragraph to preview typography rhythm.
             </motion.p>
           </div>
 
@@ -152,7 +122,7 @@ const ServicesInternalPage = () => {
             className="rounded-2xl overflow-hidden"
             style={{ border:"0.5px solid rgba(255,255,255,0.1)" }}
           >
-            <img src={PLACEHOLDER_IMAGE} alt="Custom joinery craftsmanship" className="w-full h-full object-cover" style={{ aspectRatio:"4/3" }} />
+            <img src={PLACEHOLDER_IMAGE} alt="Demo service imagery" className="w-full h-full object-cover" style={{ aspectRatio:"4/3" }} />
           </motion.div>
         </div>
       </section>
@@ -180,7 +150,7 @@ const ServicesInternalPage = () => {
             className="rounded-2xl overflow-hidden order-2 lg:order-1"
             style={{ border:"0.5px solid rgba(255,255,255,0.1)" }}
           >
-            <img src={PLACEHOLDER_IMAGE} alt="HOMAG CNC machining" className="w-full h-full object-cover" style={{ aspectRatio:"4/3" }} />
+            <img src={PLACEHOLDER_IMAGE} alt="Demo CNC placeholder" className="w-full h-full object-cover" style={{ aspectRatio:"4/3" }} />
           </motion.div>
 
           <div className="order-1 lg:order-2">
@@ -192,7 +162,7 @@ const ServicesInternalPage = () => {
               className="font-display text-3xl md:text-4xl font-bold leading-[1.1] mb-6"
               style={{ color:"rgba(255,255,255,0.95)" }}
             >
-              CNC Machining and Precision Cutting
+              Demo Section Beta
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -202,7 +172,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] mb-5 text-justify"
               style={{ color:"rgba(255,255,255,0.6)" }}
             >
-              We operate advanced in-house manufacturing facilities equipped with CNC technology, including German HOMAG systems. These allow us to cut, drill, and shape joinery components with high precision and consistency.
+              At vero eos et accusamus et iusto odio dignissimos ducimus — placeholder manufacturing storyline for mockups.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -212,7 +182,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] text-justify"
               style={{ color:"rgba(255,255,255,0.5)" }}
             >
-              Our production processes ensure repeatable quality across large volumes, meeting project specifications and material standards. This capability enables us to deliver complex joinery packages efficiently while supporting staged project installations.
+              Similique sunt in culpa qui officia deserunt mollitia animi — filler text continues for layout checks.
             </motion.p>
           </div>
         </div>
@@ -242,7 +212,7 @@ const ServicesInternalPage = () => {
               className="font-display text-3xl md:text-4xl font-bold leading-[1.1] mb-6"
               style={{ color:"rgba(255,255,255,0.95)" }}
             >
-              Edge Banding & Finishing
+              Demo Section Gamma
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -252,7 +222,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] mb-5 text-justify"
               style={{ color:"rgba(255,255,255,0.6)" }}
             >
-              All joinery components undergo controlled edge banding and finishing processes to ensure durability, precision, and consistency.
+              Placeholder finishing paragraph — demonstrates multi-line body copy without referencing real projects.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -262,7 +232,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] text-justify"
               style={{ color:"rgba(255,255,255,0.5)" }}
             >
-              High-quality edge banding protects exposed surfaces in high-traffic environments such as offices, retail spaces, and hospitality interiors. Finishing methods are selected based on project specifications and intended use, ensuring long-term performance and visual consistency across all installed elements.
+              Totam rem aperiam eaque ipsa quae ab illo inventore veritatis — illustrative supporting sentence for demos.
             </motion.p>
           </div>
 
@@ -314,7 +284,7 @@ const ServicesInternalPage = () => {
             className="font-display text-3xl md:text-4xl font-bold leading-[1.1] mb-8 max-w-2xl"
             style={{ color:"rgba(255,255,255,0.95)" }}
           >
-            Commercial Project Work
+            Demo Banner Headline
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -324,7 +294,7 @@ const ServicesInternalPage = () => {
             className="font-body text-base leading-[1.8] mb-5 text-justify"
             style={{ color:"rgba(255,255,255,0.65)" }}
           >
-            We specialise in large-scale commercial projects, working closely with main contractors, consultants, and project teams to deliver coordinated joinery packages.
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse — filler banner paragraph #1.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -334,7 +304,7 @@ const ServicesInternalPage = () => {
             className="font-body text-base leading-[1.8] text-justify"
             style={{ color:"rgba(255,255,255,0.5)" }}
           >
-            We manage production planning, logistics, and on-site installation to align with overall construction programmes. Our structured approach ensures timely delivery, efficient site execution, and compliance with project requirements.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur — filler banner paragraph #2 for rhythm.
           </motion.p>
         </div>
       </section>
@@ -374,7 +344,7 @@ const ServicesInternalPage = () => {
               className="font-display text-3xl md:text-4xl font-bold leading-[1.1] mb-6"
               style={{ color:"rgba(255,255,255,0.95)" }}
             >
-              Fire Rated Door Supply & Installation
+              Demo Compliance Section
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -384,7 +354,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] mb-4 text-justify"
               style={{ color:"rgba(255,255,255,0.6)" }}
             >
-              We are a trusted supplier and installer of certified fire-rated door systems in the UAE.
+              Ut enim ad minima veniam quis nostrum exercitationem — illustrative regulatory-style copy only.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -394,7 +364,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] mb-4 text-justify"
               style={{ color:"rgba(255,255,255,0.6)" }}
             >
-              We manufacture and install fire doors compliant with UAE Civil Defence requirements, with fire resistance ratings of 30, 60, and 120 minutes. All systems are delivered with full certification and documentation to support authority approvals and inspections.
+              Quis autem vel eum iure reprehenderit qui dolorem — second dummy paragraph; no certifications implied.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -404,7 +374,7 @@ const ServicesInternalPage = () => {
               className="font-body text-base leading-[1.8] text-justify"
               style={{ color:"rgba(255,255,255,0.5)" }}
             >
-              Our scope includes supply, installation, frame coordination, hardware integration, and certification compliance.
+              Excepteur sint occaecat cupidatat non proident sunt in culpa — closing filler lines for prototype review.
             </motion.p>
           </div>
         </div>
@@ -432,7 +402,7 @@ const ServicesInternalPage = () => {
             className="font-display text-3xl md:text-5xl font-bold leading-[1.1] mb-6 text-center"
             style={{ color:"rgba(255,255,255,0.95)" }}
           >
-            What Makes Us the Right Partner
+            Demo Capability Highlights
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -442,7 +412,7 @@ const ServicesInternalPage = () => {
             className="font-body text-base leading-relaxed text-center max-w-2xl mx-auto mb-16"
             style={{ color:"rgba(255,255,255,0.5)" }}
           >
-            Choosing the right joinery partner is critical to project success. We combine manufacturing capability with project delivery expertise. We deliver:
+            Arcu cursus euismod quis viverra nibh cras pulvinar mattis — neutral filler intro before icon cards.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -453,8 +423,8 @@ const ServicesInternalPage = () => {
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
                   </svg>
                 ),
-                title:"Large-Scale Capacity", 
-                desc:"Large-scale production capacity with consistent quality across every project stage." 
+                title:"Demo Point One", 
+                desc:"Lorem ipsum dolor sit amet — illustrative bullet copy for grid layouts." 
               },
               { 
                 icon: (
@@ -462,8 +432,8 @@ const ServicesInternalPage = () => {
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                   </svg>
                 ),
-                title:"End-to-End Coordination", 
-                desc:"Full coordination from factory production through to on-site installation." 
+                title:"Demo Point Two", 
+                desc:"Consectetur adipiscing elit sed do eiusmod tempor — placeholder description." 
               },
               { 
                 icon: (
@@ -471,8 +441,8 @@ const ServicesInternalPage = () => {
                     <line x1="18" y1="20" x2="18" y2="10" /><line x1="12" y1="20" x2="12" y2="4" /><line x1="6" y1="20" x2="6" y2="14" />
                   </svg>
                 ),
-                title:"Precision Manufacturing", 
-                desc:"Precision-driven manufacturing using advanced CNC systems and European machinery." 
+                title:"Demo Point Three", 
+                desc:"Ut labore et dolore magna aliqua — dummy manufacturing talking point." 
               },
               { 
                 icon: (
@@ -480,8 +450,8 @@ const ServicesInternalPage = () => {
                     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
                   </svg>
                 ),
-                title:"Strict Compliance", 
-                desc:"Full compliance with project specifications and UAE regulatory standards." 
+                title:"Demo Point Four", 
+                desc:"Fictional compliance statement for prototype demos — replace before launch." 
               },
             ].map((item, i) => (
               <motion.div
@@ -553,7 +523,7 @@ const ServicesInternalPage = () => {
               transition={{ duration: 0.7, delay: 0.15, ease: E }}
               className="font-display text-3xl md:text-5xl font-bold text-white mb-6"
             >
-              Ready to Start Your Project?
+              Demo Call-to-Action Block
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -562,7 +532,7 @@ const ServicesInternalPage = () => {
               transition={{ duration: 0.7, delay: 0.25, ease: E }}
               className="font-body text-base md:text-lg text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed"
             >
-              Send your RFQ, BOQ, or technical drawings and let our team handle the rest — from manufacturing to final installation.
+              Tap Contact Us below — form submits locally with toast feedback only; wire real endpoints when you ship.
             </motion.p>
             <motion.a
               href="/"
