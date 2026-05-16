@@ -1,8 +1,5 @@
 import { motion } from"framer-motion";
-import kitchenImg from"@/assets/kitchen.jpg";
-import wardrobeImg from"@/assets/wardrobe.jpg";
-import cncImg from"@/assets/cnc.jpg";
-import claddingImg from"@/assets/cladding.jpg";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 import WordReveal from"@/components/WordReveal";
 
 const easeOutExpo = [0.22, 1, 0.36, 1] as [number, number, number, number];
@@ -12,28 +9,28 @@ const services = [
     title:"Culinary Engineering",
     subtitle:"Custom Kitchens",
     description:"Bespoke kitchen systems engineered for hospitality and residential developments. Full integration with MEP coordination.",
-    image: kitchenImg,
+    image: PLACEHOLDER_IMAGE,
     span:"md:col-span-2 md:row-span-2",
   },
   {
     title:"Integrated Storage",
     subtitle:"Wardrobes & Closets",
     description:"Modular wardrobe systems with precision-fit tolerances for mass residential deployment.",
-    image: wardrobeImg,
+    image: PLACEHOLDER_IMAGE,
     span:"md:col-span-1 md:row-span-1",
   },
   {
     title:"0.1mm Accuracy",
     subtitle:"CNC Joinery",
     description:"Multi-axis CNC machining for complex geometries and repeatable quality at scale.",
-    image: cncImg,
+    image: PLACEHOLDER_IMAGE,
     span:"md:col-span-1 md:row-span-1",
   },
   {
     title:"Architectural Surfaces",
     subtitle:"Wall Cladding",
     description:"Engineered wood panel systems for lobbies, corridors, and feature walls. Fire-rated options available.",
-    image: claddingImg,
+    image: PLACEHOLDER_IMAGE,
     span:"md:col-span-2 md:row-span-1",
   },
 ];

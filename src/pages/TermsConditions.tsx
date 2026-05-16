@@ -4,6 +4,7 @@ import Navbar from"@/components/Navbar";
 import Footer from"@/components/Footer";
 import { useLenis } from"@/hooks/useLenis";
 import WordReveal from"@/components/WordReveal";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const easeOutExpo = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -98,7 +99,7 @@ const TermsConditions = () => {
       {/* Hero Section */}
       <section className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden flex items-end">
         <motion.div className="absolute inset-0 z-0" style={{ y: heroY }}>
-          <img src="/faq1.png" alt="Terms and Conditions" className="w-full h-full object-cover" />
+          <img src={PLACEHOLDER_IMAGE} alt="Terms and Conditions" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-[#0f172a]/70 to-black/30" />
         </motion.div>
 

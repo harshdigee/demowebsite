@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform, useSpring } from"framer-motion";
 import { useRef } from"react";
-import b2bBg from"@/assets/b2b-background.jpg";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const E = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -118,7 +118,7 @@ const B2BPortal = () => {
     >
       {/* ── Parallax background ── */}
       <motion.img
-        src={b2bBg}
+        src={PLACEHOLDER_IMAGE}
             alt="Manufacturing facility interior"
         className="absolute inset-0 w-full h-full object-cover"
         style={{ y: bgY, scale: 1.15 }}

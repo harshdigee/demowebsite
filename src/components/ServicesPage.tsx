@@ -1,12 +1,8 @@
 import { motion } from"framer-motion";
 import { useRef } from"react";
-import customJoineryImg from"@/assets/custom-joinery.jpg";
-import cncMachiningImg from"@/assets/cnc-machining.jpg";
-import edgeBandingImg from"@/assets/edge-banding.jpg";
-import commercialImg from"@/assets/commercial-residential.jpg";
-import bespokeFurnitureImg from"@/assets/bespoke-furniture.webp";
 import MaskedImage from"@/components/MaskedImage";
 import WordReveal from"@/components/WordReveal";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const easeOutExpo = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -16,7 +12,7 @@ const services = [
     subtitle:"Custom Joinery",
     title:"Custom Joinery Solutions in Dubai",
     text:"Custom joinery brings creativity and skilled craftsmanship together in a flawless way. We focus on making every piece of joinery reflect the unique personality of your brand.",
-    image: customJoineryImg,
+    image: PLACEHOLDER_IMAGE,
     imageAlt:"Custom joinery craftsmanship at our facility",
   },
   {
@@ -24,7 +20,7 @@ const services = [
     subtitle:"CNC Machining",
     title:"CNC Machining & Precision Cutting",
     text:"Precision plays a key role in building interiors that are both stylish and durable. We use cutting-edge CNC machining tools to turn designs into crafted pieces.",
-    image: cncMachiningImg,
+    image: PLACEHOLDER_IMAGE,
     imageAlt:"HOMAG CNC machining equipment at our facility",
   },
   {
@@ -32,7 +28,7 @@ const services = [
     subtitle:"Edge Banding",
     title:"Edge Banding & Finishing",
     text:"Small details can create a big impact in spaces like retail stores and hotels. We pay close attention to edge banding and finishing because these touches matter.",
-    image: edgeBandingImg,
+    image: PLACEHOLDER_IMAGE,
     imageAlt:"Edge banding and finishing quality control",
   },
   {
@@ -40,7 +36,7 @@ const services = [
     subtitle:"Commercial",
     title:"Commercial & Residential Projects",
     text:"We put the same care and skill into every joinery or interior project we take on. Whether it's a cosy home or a large business space, you can expect quality in both.",
-    image: commercialImg,
+    image: PLACEHOLDER_IMAGE,
     imageAlt:"Commercial hospitality interior project",
   },
   {
@@ -48,7 +44,7 @@ const services = [
     subtitle:"Bespoke Furniture",
     title:"Bespoke Furniture Manufacturing",
     text:"Furniture sets the tone and personality in any room. Custom-made furniture adds another layer by making your space personal.",
-    image: bespokeFurnitureImg,
+    image: PLACEHOLDER_IMAGE,
     imageAlt:"Bespoke furniture manufacturing line at our facility",
   },
 ];

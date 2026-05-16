@@ -7,6 +7,7 @@ import { useLenis } from "@/hooks/useLenis";
 import { Facebook, Linkedin, Link2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { blogSupabase, formatBlogDate, type BlogPost } from "@/integrations/blogSupabase/client";
+import { PLACEHOLDER_IMAGE } from "@/constants/placeholderImage";
 
 const XIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
@@ -127,13 +128,11 @@ const BlogPage = () => {
                     className="rounded-2xl overflow-hidden glass-card aspect-[4/5] relative"
                     style={{ border: "0.5px solid rgba(255,255,255,0.1)" }}
                   >
-                    {post.cover_image && (
-                      <img
-                        src={post.cover_image}
+                    <img
+                        src={PLACEHOLDER_IMAGE}
                         alt={post.title}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                       />
-                    )}
                   </div>
                 </div>
 

@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import aboutImg from "@/assets/about-us.jpg";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLenis } from "@/hooks/useLenis";
+import { PLACEHOLDER_IMAGE } from "@/constants/placeholderImage";
 
 const easeOutExpo = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -35,7 +35,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
             >
               <div className="w-full h-full rounded-2xl overflow-hidden shadow-2xl relative">
-                <img src={aboutImg} alt="Interior" className="w-full h-full object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Interior" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/60 to-transparent pointer-events-none" />
               </div>
             </motion.div>
@@ -52,7 +52,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.2, delay: 0.4, ease: easeOutExpo }}
             >
               <div className="glass-card rounded-xl overflow-hidden shadow-2xl">
-                <img src="/about1.png" alt="Factory" className="w-full h-auto object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Factory" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
 
@@ -64,7 +64,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
             >
               <div className="w-full h-full rounded-2xl overflow-hidden shadow-2xl relative">
-                <img src={aboutImg} alt="Interior" className="w-full h-full object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Interior" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/60 to-transparent pointer-events-none" />
               </div>
             </motion.div>
@@ -78,7 +78,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1.2, delay: 0.6, ease: easeOutExpo }}
             >
               <div className="glass-card rounded-xl overflow-hidden shadow-2xl">
-                <img src="/about-interior.png" alt="Interior Design" className="w-full h-auto object-cover" />
+                <img src={PLACEHOLDER_IMAGE} alt="Interior Design" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
           </div>
@@ -247,7 +247,7 @@ const AboutUsPage = () => {
                 viewport={{ once: false, amount: 0.05 }}
                 transition={{ duration: 1, delay: 0.2, ease: easeOutExpo }}
               >
-                <img src="/about2.png" alt="Joinery Detail" style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }} />
+                <img src={PLACEHOLDER_IMAGE} alt="Joinery Detail" style={{ width: "100%", height: "100%", display: "block", objectFit: "cover" }} />
               </motion.div>
             </div>
 
@@ -324,7 +324,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1, ease: easeOutExpo }}
             >
               <div style={{ borderRadius: 10, overflow: "hidden" }} className="glass-card w-full aspect-[4/3]">
-                <img src="/about4.png" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Production Facility" />
+                <img src={PLACEHOLDER_IMAGE} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Production Facility" />
               </div>
               <h4 style={{ fontSize: 22, fontWeight: 700, color: "#ffffff", marginBottom: 8 }}>Large-Scale Commercial Manufacturing</h4>
               <p style={{ fontSize: 15, color: "#d1d5db", lineHeight: 1.7, textAlign: "justify", overflowWrap: "break-word" }} lang="en">
@@ -340,7 +340,7 @@ const AboutUsPage = () => {
               transition={{ duration: 1, delay: 0.2, ease: easeOutExpo }}
             >
               <div style={{ borderRadius: 10, overflow: "hidden" }} className="glass-card w-full aspect-[4/3]">
-                <img src="/about5.png" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Quality Control" />
+                <img src={PLACEHOLDER_IMAGE} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" alt="Quality Control" />
               </div>
               <h4 style={{ fontSize: 22, fontWeight: 700, color: "#ffffff", marginBottom: 8 }}>Strict Quality Control</h4>
               <p style={{ fontSize: 15, color: "#d1d5db", lineHeight: 1.7, textAlign: "justify", overflowWrap: "break-word" }} lang="en">

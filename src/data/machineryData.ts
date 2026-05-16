@@ -1,3 +1,5 @@
+import { PLACEHOLDER_IMAGE } from "@/constants/placeholderImage";
+
 export interface MachineryItem {
   name: string;
   brand: string;
@@ -20,7 +22,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "SAWTEQ S-410",
         brand: "HOMAG",
-        image: "/gallery/machinery/sawteq-s410.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "The SAWTEQ S-410 allows for efficient and ergonomic processing of large quantities of panels with first-class cutting quality. The integrated lifting table provides for automatic feed and with large saw blade projection, the saw is reliable, precise and offers high throughput.",
         highlights: [
@@ -33,7 +35,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "CENTATEQ P-110",
         brand: "HOMAG",
-        image: "/gallery/machinery/centateq-p110.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "A flexible CNC machine based on compact technology and a reduced footprint giving 3-, 4- and 5-axis solutions for processing kitchen, office and solid wood furniture and door construction.",
         highlights: [
@@ -46,7 +48,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "EDGETEQ S-500",
         brand: "HOMAG",
-        image: "/gallery/machinery/edgeteq-s500.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "The single-sided EDGETEQ S-500 machine offers precise gluing and perfect post-processing of edges. With a variable feed rate of 16–20, 25 or 35 m/min, it enables productivity to keep up with higher performance requirements.",
         highlights: [
@@ -59,7 +61,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "DRILLTEQ H-230",
         brand: "HOMAG",
-        image: "/gallery/machinery/drillteq-h230.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "Allows for precise drilling process of panels in all 6 sides with the workpieces optimally positioned by CNC-controlled clamps which also provides the capability to work on two pieces simultaneously.",
         highlights: [
@@ -72,7 +74,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "EDGETEQ S-380",
         brand: "HOMAG",
-        image: "/gallery/machinery/edgeteq-s380.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "Provides high feed speeds and high-performance motors, whilst the glue application system allows you to switch easily between two colours or glue types (EVA, PU) giving precise trimming, corner rounding, and buffing for a seamless, professional look.",
         highlights: [
@@ -91,7 +93,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "POWERMAT 1500",
         brand: "WEINIG",
-        image: "/gallery/machinery/powermat-1500.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "A high-precision industrial woodworking machine that planes and profiles solid wood on all four sides simultaneously, creating finished components like mouldings, window frames, and furniture parts with exceptional surface quality and accuracy.",
         highlights: [
@@ -104,7 +106,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "PROFIRIP 340 — Raimann Line",
         brand: "WEINIG",
-        image: "/gallery/machinery/profirip-340.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "A powerful, flexible multi-blade rip saw with high-efficiency, profitable cutting of solid wood, creating glue-ready strips or optimizing board widths with automated adjustments. It excels at making precise cuts parallel to the wood grain, maximizing timber recovery with minimal setup.",
         highlights: [
@@ -117,7 +119,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "KUPER ZFS 3200",
         brand: "KUPER",
-        image: "/gallery/machinery/kuper-zfs.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "A precise machine that cuts stacked veneer packages simultaneously with a top and bottom knife for perfectly straight, parallel edges, ideal for creating tight, high-quality veneer joints for furniture, cabinetry, and other applications.",
         highlights: [
@@ -130,7 +132,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "KUPER FLI 1000 & QFS 850",
         brand: "KUPER",
-        image: "/gallery/machinery/kuper-fli-qfs.png",
+        image: PLACEHOLDER_IMAGE,
         description:
           "The KUPER FLI 1000 is a high-performance veneer splicing machine that precisely joins and glues strips of veneer to create larger, seamless panels. The QFS 850 is a cross-cutting clipper that rapidly and precisely cuts stacks of veneer to specific lengths with clean, tear-free edges.",
         highlights: [
@@ -149,7 +151,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "Cefla Smartcoater PRO",
         brand: "CEFLA",
-        image: "/gallery/machinery/smartcoater-pro.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "An advanced machine for applying coatings (like lacquer or paint) to flat materials, particularly wood, glass, metal, and plastic. Uses rollers instead of spray guns for reduced material waste and faster processing. Excels at handling uneven or uncalibrated panels with its floating application head and soft roller technology.",
         highlights: [
@@ -162,7 +164,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "Cefla Smartclean",
         brand: "CEFLA",
-        image: "/gallery/machinery/smartclean.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "A comprehensive range of brushing machines for all cleaning requirements associated with various types of substrates. Suitable for flat and shaped, rough and smooth panels, after primer application and before finishing.",
         highlights: [
@@ -175,7 +177,7 @@ export const machinerySections: MachinerySection[] = [
       {
         name: "Cefla Easy",
         brand: "CEFLA",
-        image: "/gallery/machinery/cefla-easy.jpg",
+        image: PLACEHOLDER_IMAGE,
         description:
           "A two-arm oscillating automatic spraying machine designed for high-quality, consistent finishes on various materials like wood, glass, and plastic. Features an automatic part scanning system, a carbon fiber belt conveyor with a patented cleaning and paint recovery system.",
         highlights: [

@@ -5,6 +5,7 @@ import Navbar from"@/components/Navbar";
 import Footer from"@/components/Footer";
 import { useLenis } from"@/hooks/useLenis";
 import WordReveal from"@/components/WordReveal";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const easeOutExpo = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -46,7 +47,7 @@ const CareerPage = () => {
       <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden pt-32 pb-24">
         {/* Background image */}
         <motion.img
-          src="/about4.png"
+          src={PLACEHOLDER_IMAGE}
           alt="Team and manufacturing"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ y: imageY, scale: 1.1, filter:"brightness(0.45)" }}

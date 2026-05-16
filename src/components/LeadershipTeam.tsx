@@ -1,11 +1,12 @@
 import { motion } from"framer-motion";
 import { Linkedin, Mail } from"lucide-react";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const team = [
   {
     name:"Masih Imtiaz",
     role:"Chief Executive Officer",
-    image:"/about7.png", // Using a placeholder from the provided images
+    image: PLACEHOLDER_IMAGE,
     bio:"Visionary leader driving strategic growth and innovation in the bespoke joinery sector across the UAE.",
     socials: {
       linkedin:"#",
@@ -15,7 +16,7 @@ const team = [
   {
     name:"Ahmed Raza",
     role:"Operations Director",
-    image:"/about2.png",
+    image: PLACEHOLDER_IMAGE,
     bio:"Overseeing the entire manufacturing lifecycle, ensuring precision engineering and strict adherence to quality standards.",
     socials: {
       linkedin:"#",
@@ -25,7 +26,7 @@ const team = [
   {
     name:"Elena Petrova",
     role:"Head of Design",
-    image:"/about3.png",
+    image: PLACEHOLDER_IMAGE,
     bio:"Translating complex architectural concepts into manufacturable, high-end joinery solutions with an eye for detail.",
     socials: {
       linkedin:"#",

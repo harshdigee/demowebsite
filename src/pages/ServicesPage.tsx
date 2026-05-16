@@ -5,12 +5,7 @@ import Navbar from"@/components/Navbar";
 import Footer from"@/components/Footer";
 import { useLenis } from"@/hooks/useLenis";
 import WordReveal from"@/components/WordReveal";
-
-import customJoineryImg from"@/assets/custom-joinery.jpg";
-import cncMachiningImg from"@/assets/cnc-machining.jpg";
-import edgeBandingImg from"@/assets/edge-banding.jpg";
-import commercialImg from"@/assets/commercial-residential.jpg";
-import bespokeFurnitureImg from"@/assets/bespoke-furniture.webp";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const E = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -30,7 +25,7 @@ const ServicesInternalPage = () => {
       <section className="relative w-full min-h-[70vh] flex items-end overflow-hidden">
         <div className="absolute inset-0 z-0">
           <motion.img
-            src={customJoineryImg}
+            src={PLACEHOLDER_IMAGE}
             alt="Commercial Joinery"
             className="w-full h-full object-cover"
             initial={{ scale: 1.15 }}
@@ -125,7 +120,7 @@ const ServicesInternalPage = () => {
             style={{ border:"0.5px solid rgba(255,255,255,0.1)" }}
           >
             <img
-              src={customJoineryImg}
+              src={PLACEHOLDER_IMAGE}
               alt="Custom joinery craftsmanship"
               className="w-full h-full object-cover"
               style={{ aspectRatio:"4/3" }}
@@ -147,7 +142,7 @@ const ServicesInternalPage = () => {
             style={{ border:"0.5px solid rgba(255,255,255,0.1)" }}
           >
             <img
-              src={cncMachiningImg}
+              src={PLACEHOLDER_IMAGE}
               alt="HOMAG CNC machining"
               className="w-full h-full object-cover"
               style={{ aspectRatio:"4/3" }}
@@ -254,7 +249,7 @@ const ServicesInternalPage = () => {
             style={{ border:"0.5px solid rgba(255,255,255,0.1)" }}
           >
             <img
-              src={edgeBandingImg}
+              src={PLACEHOLDER_IMAGE}
               alt="Edge banding and finishing"
               className="w-full h-full object-cover"
               style={{ aspectRatio:"4/3" }}
@@ -267,7 +262,7 @@ const ServicesInternalPage = () => {
       <section className="relative w-full py-32 md:py-44 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <motion.img
-            src={commercialImg}
+            src={PLACEHOLDER_IMAGE}
             alt="Commercial project"
             className="w-full h-full object-cover"
             initial={{ scale: 1.1 }}
@@ -335,7 +330,7 @@ const ServicesInternalPage = () => {
             style={{ border:"0.5px solid rgba(255,255,255,0.1)" }}
           >
             <img
-              src={bespokeFurnitureImg}
+              src={PLACEHOLDER_IMAGE}
               alt="Fire rated door manufacturing"
               className="w-full h-full object-cover"
               style={{ aspectRatio:"4/3" }}
@@ -461,7 +456,7 @@ const ServicesInternalPage = () => {
         >
           <div className="absolute inset-0">
             <img
-              src={cncMachiningImg}
+              src={PLACEHOLDER_IMAGE}
               alt="Get in touch"
               className="w-full h-full object-cover brightness-[0.25]"
             />

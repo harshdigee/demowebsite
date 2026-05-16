@@ -5,14 +5,13 @@ import Footer from "@/components/Footer";
 import MachineryCard from "@/components/MachineryCard";
 import EquipmentTable from "@/components/EquipmentTable";
 import { useLenis } from "@/hooks/useLenis";
+import { PLACEHOLDER_IMAGE } from "@/constants/placeholderImage";
 import {
   machinerySections,
   panelSectionEquipment,
   millingVeneerEquipment,
   sandingSectionEquipment,
 } from "@/data/machineryData";
-
-import homagMachine from "@/assets/gallery/homag-machine.jpg";
 
 const elyseCurve = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -37,7 +36,7 @@ const MachineryPage = () => {
       <section className="relative h-[70vh] md:h-[80vh] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={homagMachine}
+            src={PLACEHOLDER_IMAGE}
             alt="Manufacturing Machinery"
             className="w-full h-full object-cover"
           />

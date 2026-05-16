@@ -1,8 +1,8 @@
 import { motion, useScroll, useTransform, useSpring } from"framer-motion";
 import { useRef } from"react";
 import { useNavigate } from"react-router-dom";
-import aboutImg from"@/assets/about-us.jpg";
 import WordReveal from"@/components/WordReveal";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const elyseCurve = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
@@ -81,7 +81,7 @@ const AboutUs = () => {
               transition={{ duration: 1.2, delay: 0.2, ease: elyseCurve }}
             >
               <motion.img
-                src={aboutImg}
+                src={PLACEHOLDER_IMAGE}
                 alt="Interior Industries facility"
                 className="w-full h-full object-cover"
                 loading="eager"

@@ -9,6 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import { blogSupabase, formatBlogDate, type BlogPost } from "@/integrations/blogSupabase/client";
 import { BlogImageGallery } from "@/components/BlogImageGallery";
 import { normalizeBlogContentHtml } from "@/lib/blogContentHtml";
+import { PLACEHOLDER_IMAGE } from "@/constants/placeholderImage";
 
 /** Insert gallery between paragraph blocks when possible (admin HTML is mostly <p>…</p>). */
 function splitHtmlAtMidParagraph(html: string): { before: string; after: string } | null {
@@ -192,11 +193,7 @@ const BlogPostPage = () => {
       {/* Hero — cover + title overlay; date top-right */}
       <section className="relative w-full min-h-[72vh] md:min-h-[85vh] overflow-hidden bg-[#0A1628]">
         <motion.div className="absolute inset-0 z-0" style={{ y: heroY }}>
-          {post.cover_image ? (
-            <img src={post.cover_image} alt={post.title} className="w-full h-full object-cover" />
-          ) : (
-            <div className="absolute inset-0 bg-[#0A1628]" aria-hidden />
-          )}
+          <img src={PLACEHOLDER_IMAGE} alt={post.title} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0A1628] via-[#0A1628]/55 to-[#0A1628]/25" />
         </motion.div>
 

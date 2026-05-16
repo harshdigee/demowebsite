@@ -1,39 +1,34 @@
 import { motion, AnimatePresence } from"framer-motion";
 import { Link } from"react-router-dom";
 import { useRef, useState, useCallback, useEffect } from"react";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
-import homagMachine from"@/assets/gallery/homag-machine.jpg";
-import cncMachining from"@/assets/cnc-machining.jpg";
-import edgeBanding from"@/assets/edge-banding.jpg";
-import customJoinery from"@/assets/custom-joinery.jpg";
-
-/** Home "Our Gallery" carousel — production / machinery imagery (no branded event photos). */
 const gallerySlides = [
   {
     id: 1,
-    src: homagMachine,
-    alt: "CNC production line",
+    src: PLACEHOLDER_IMAGE,
+    alt: "Gallery placeholder",
     title: "ADVANCED\nMACHINERY",
     description: "Industry-leading equipment for accurate cutting, drilling, and shaping at production scale.",
   },
   {
     id: 2,
-    src: cncMachining,
-    alt: "CNC machining",
+    src: PLACEHOLDER_IMAGE,
+    alt: "Gallery placeholder",
     title: "CNC\nMACHINING",
     description: "Precision routing and drilling for complex components and repeat manufacturing.",
   },
   {
     id: 3,
-    src: edgeBanding,
-    alt: "Edge finishing",
+    src: PLACEHOLDER_IMAGE,
+    alt: "Gallery placeholder",
     title: "EDGE\nFINISHING",
     description: "Consistent edge application for durable, specification-grade joinery.",
   },
   {
     id: 4,
-    src: customJoinery,
-    alt: "Custom joinery workshop",
+    src: PLACEHOLDER_IMAGE,
+    alt: "Gallery placeholder",
     title: "CUSTOM\nJOINERY",
     description: "Bespoke components and interiors engineered to drawing and sample approval.",
   },
@@ -51,7 +46,6 @@ const GalleryShowcase = () => {
     setCurrent((prev) => (prev + dir + gallerySlides.length) % gallerySlides.length);
   }, []);
 
-  // Auto-advance every 5s
   useEffect(() => {
     const timer = setInterval(() => paginate(1), 5000);
     return () => clearInterval(timer);
@@ -60,7 +54,6 @@ const GalleryShowcase = () => {
   const prev = (current - 1 + projects.length) % projects.length;
   const next = (current + 1) % projects.length;
 
-  // Cinematic staggered animation for images
   const imageVariants = {
     enter: (dir: number) => ({
       x: dir > 0 ?"100%" :"-100%",
@@ -81,7 +74,6 @@ const GalleryShowcase = () => {
     }),
   };
 
-  // Title crossfade
   const titleVariants = {
     enter: { opacity: 0, y: 20, scale: 0.95 },
     center: { opacity: 1, y: 0, scale: 1, transition: { duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] } },
@@ -93,11 +85,9 @@ const GalleryShowcase = () => {
       ref={sectionRef}
       className="relative overflow-hidden flex flex-col"
       style={{
-        // Removed solid background so animated canvas shows through
         minHeight:"100vh",
       }}
     >
-      {/* ── Top Header ── */}
       <div className="w-full px-8 md:px-16 pt-12 z-30 flex justify-between items-center">
         <p className="font-display text-2xl md:text-3xl font-bold tracking-widest uppercase mb-4" style={{ color:"#999999" }}>
           Our Gallery
@@ -111,12 +101,8 @@ const GalleryShowcase = () => {
         </Link>
       </div>
 
-      {/* ── Cinematic Carousel Area ── */}
       <div className="relative flex-1 flex items-center justify-center w-full mt-10 mb-16">
-        {/* The 3 Images (Left, Center, Right) */}
         <div className="relative w-full max-w-[1800px] flex items-center justify-center gap-6 md:gap-12 lg:gap-20 px-4">
-          
-          {/* Left Peek Image */}
           <div
             className="hidden md:block relative overflow-hidden flex-shrink-0 cursor-pointer"
             style={{ width:"clamp(160px, 18vw, 280px)", height:"clamp(220px, 40vh, 450px)", marginTop:"10vh" }}
@@ -134,7 +120,6 @@ const GalleryShowcase = () => {
             />
           </div>
 
-          {/* Center Main Image */}
           <div
             className="relative overflow-hidden flex-shrink-0 z-20"
             style={{
@@ -157,10 +142,8 @@ const GalleryShowcase = () => {
               />
             </AnimatePresence>
 
-            {/* Subtle dark gradient on center image so text pops more */}
             <div className="absolute inset-0 bg-black/20 pointer-events-none" />
 
-            {/* Title constrained strictly inside the center image */}
             <div className="absolute inset-0 flex items-center justify-center z-30 pointer-events-none px-6">
               <AnimatePresence initial={false} custom={direction} mode="wait">
                 <motion.h2
@@ -184,7 +167,6 @@ const GalleryShowcase = () => {
             </div>
           </div>
 
-          {/* Right Peek Image */}
           <div
             className="hidden md:block relative overflow-hidden flex-shrink-0 cursor-pointer"
             style={{ width:"clamp(160px, 18vw, 280px)", height:"clamp(220px, 40vh, 450px)", marginTop:"10vh" }}
@@ -204,7 +186,6 @@ const GalleryShowcase = () => {
         </div>
       </div>
 
-      {/* ── Bottom Text & CTA ── */}
       <div className="w-full px-8 md:px-16 pb-16 flex flex-col items-center justify-center gap-8 md:gap-16 z-30 mt-8">
         <AnimatePresence mode="wait">
           <motion.p

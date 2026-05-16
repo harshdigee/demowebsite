@@ -6,6 +6,7 @@ import Footer from"@/components/Footer";
 import { useLenis } from"@/hooks/useLenis";
 import WordReveal from"@/components/WordReveal";
 import { useNavigate } from"react-router-dom";
+import { PLACEHOLDER_IMAGE } from"@/constants/placeholderImage";
 
 const easeOutExpo = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -52,7 +53,7 @@ const FAQPage = () => {
           style={{ clipPath:"ellipse(150% 100% at 50% 0%)" }}
         >
           <img 
-            src="/faq1.png" 
+            src={PLACEHOLDER_IMAGE} 
             alt="Procurement Background" 
             className="w-full h-full object-cover brightness-50"
           />
@@ -145,7 +146,7 @@ const FAQPage = () => {
         >
           <div className="absolute inset-0">
             <img 
-              src="/faq2.png" 
+              src={PLACEHOLDER_IMAGE} 
               alt="Request a Quote" 
               className="w-full h-full object-cover brightness-[0.35]"
             />
